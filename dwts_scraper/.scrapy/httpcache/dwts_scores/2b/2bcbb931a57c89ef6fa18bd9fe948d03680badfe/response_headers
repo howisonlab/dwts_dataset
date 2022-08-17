@@ -1,0 +1,19 @@
+Content-Length: 0
+Date: Wed, 17 Aug 2022 20:47:37 GMT
+Server: mw1429.eqiad.wmnet
+X-Content-Type-Options: nosniff
+Vary: Accept-Encoding,X-Forwarded-Proto,Cookie,Authorization
+Cache-Control: s-maxage=1200, must-revalidate, max-age=0
+Last-Modified: Wed, 17 Aug 2022 20:47:37 GMT
+Location: https://en.wikipedia.org/wiki/Main_Page
+Content-Type: text/html; charset=UTF-8
+Age: 433
+X-Cache: cp2041 miss, cp2031 hit/765
+X-Cache-Status: hit-front
+Server-Timing: cache;desc="hit-front", host;desc="cp2031"
+Strict-Transport-Security: max-age=106384710; includeSubDomains; preload
+Report-To: { "group": "wm_nel", "max_age": 86400, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0" }] }
+Nel: { "report_to": "wm_nel", "max_age": 86400, "failure_fraction": 0.05, "success_fraction": 0.0}
+Accept-Ch: Sec-CH-UA-Arch,Sec-CH-UA-Bitness,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-UA-Platform-Version
+Permissions-Policy: interest-cohort=(),ch-ua-arch=(self "intake-analytics.wikimedia.org"),ch-ua-bitness=(self "intake-analytics.wikimedia.org"),ch-ua-full-version-list=(self "intake-analytics.wikimedia.org"),ch-ua-model=(self "intake-analytics.wikimedia.org"),ch-ua-platform-version=(self "intake-analytics.wikimedia.org")
+X-Client-Ip: 136.49.36.141
