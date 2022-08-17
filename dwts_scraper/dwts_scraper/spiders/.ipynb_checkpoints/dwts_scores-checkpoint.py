@@ -4,6 +4,8 @@ from scrapy.spiders import CrawlSpider, Rule
 
 from scrapy.shell import inspect_response
 
+import pandas as pd
+
 
 class DwtsScoresSpider(CrawlSpider):
     name = 'dwts_scores'
@@ -25,10 +27,12 @@ class DwtsScoresSpider(CrawlSpider):
             
             week = week_tag.xpath('./text()').get()
             
-            score_table = week_tag.xpath('../following-sibling::table')[0].getall()
+            score_table = week_tag.xpath('../following-sibling::table')[0].get()
+            
+            score_pandas = pd.read_html(score_table)[0]
             
             yield{'week': week,
                   'judges': judges,
-                  'score_table': score_table
+                  'score_table': score_pandas.to_dict('records')
             }
             
