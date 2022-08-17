@@ -1,0 +1,11 @@
+version: '3'
+services:
+ music_fest:
+    build:
+        dockerfile: Dockerfile
+        context: .
+    container_name: dwts
+    ports:
+      - "8890:8888"
+    volumes:
+      - .:/home/jovyan/dwts
