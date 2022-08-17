@@ -13,7 +13,7 @@ class DwtsScoresSpider(CrawlSpider):
     start_urls = ['https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_season_1)']
 
     rules = (
-        Rule(LinkExtractor(allow='wiki/Dancing_with_the_Stars_\\(American_season_\\d+\\)$'), callback='parse_item', follow=True),
+        Rule(LinkExtractor(allow='wiki/Dancing_with_the_Stars_\\(American_season_18\\)$'), callback='parse_item', follow=True),
     )
 
     def parse_item(self, response):
@@ -21,20 +21,25 @@ class DwtsScoresSpider(CrawlSpider):
         
         season = response.xpath('string(//*[@id="firstHeading"]/text())').re(r'(\d+)\)$')[0]
         
-        judge_block = response.xpath('//*[@id="Weekly_scores"]')
-        judges = judge_block.xpath('../following-sibling::p/i/a/text()').getall()
+        # Judges unless mentioned just above table for the week.
+        weekly_scores = response.xpath('//*[@id="Weekly_scores"]')
         
-        for week_tag in judge_block.xpath('../following-sibling::h3/span[@class="mw-headline"]'):
+        # Currently this gets all of the judges on the page.  Season 18 somehow has GMA as a judge?
+        # Ah, it's a link somewhere in one of these judge sentences.
+        # Probably need to get the first preceeding sibling matching for each table
+        default_judges = weekly_scores.xpath('../following-sibling::p/i/a/text()').getall()
+        
+        for week_tag in weekly_scores.xpath('../following-sibling::h3/span[@class="mw-headline"]'):
             
             week = week_tag.xpath('./text()').get()
             
             score_table = week_tag.xpath('../following-sibling::table')[0].get()
-            score_pandas = pd.read_html(score_table)[0]
+            score_pandas = pd.read_html(score_table)[0].fillna('')
             
             yield{
                 'season': season,
                 'week': week,
-                'judges': judges,
+                'judges': default_judges,
                 'score_table': score_pandas.to_dict('records')
             }
             
