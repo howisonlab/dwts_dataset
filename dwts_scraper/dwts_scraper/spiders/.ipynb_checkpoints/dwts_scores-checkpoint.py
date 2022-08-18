@@ -17,7 +17,7 @@ class DwtsScoresSpider(CrawlSpider):
     )
 
     def parse_item(self, response):
-       # inspect_response(response, self)
+        # inspect_response(response, self)
         
         season = response.xpath('string(//*[@id="firstHeading"]/text())').re(r'(\d+)\)$')[0]
         
@@ -27,19 +27,27 @@ class DwtsScoresSpider(CrawlSpider):
         # Currently this gets all of the judges on the page.  Season 18 somehow has GMA as a judge?
         # Ah, it's a link somewhere in one of these judge sentences.
         # Probably need to get the first preceeding sibling matching for each table
-        default_judges = weekly_scores.xpath('../following-sibling::p/i/a/text()').getall()
+        # default_judges = weekly_scores.xpath('../following-sibling::p/i/a/text()').getall()
         
         for week_tag in weekly_scores.xpath('../following-sibling::h3/span[@class="mw-headline"]'):
             
             week = week_tag.xpath('./text()').get()
             
-            score_table = week_tag.xpath('../following-sibling::table')[0].get()
-            score_pandas = pd.read_html(score_table)[0].fillna('')
+            score_table = week_tag.xpath('../following-sibling::table')[0]
+            # read_html always returns a list even when it's a single item
+            score_pandas = pd.read_html(score_table.get())[0].fillna('')
+            
+            # Judges are in a sentence just above the table (or a few tables up).
+            judge_html = score_table.xpath('./preceding-sibling::p//*[contains(text(), "Individual judge")]')[-1]
+            judge_sentence = ''.join(judge_html.xpath('./descendant-or-self::*/text()').getall())
+            # 'Individual judges scores in the chart below (given in parentheses) are listed in this order from left to right: Carrie Ann Inaba, Len Goodman, Robin Roberts, Bruno Tonioli'
+            judges = judge_sentence.split(": ")[-1].split(", ")
             
             yield{
                 'season': season,
                 'week': week,
-                'judges': default_judges,
+                'judges': judges,
+                'judge_sentence': judge_sentence,
                 'score_table': score_pandas.to_dict('records')
             }
             
