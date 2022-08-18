@@ -62,9 +62,9 @@ ROBOTSTXT_OBEY = True
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'dwts_scraper.pipelines.DwtsScraperPipeline': 300,
-#}
+ITEM_PIPELINES = {
+   'dwts_scraper.pipelines.ValidatePipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
@@ -88,3 +88,5 @@ HTTPCACHE_ENABLED = True
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
 FEED_EXPORT_ENCODING = 'utf-8'
+# FEED_FORMAT = 'jsonlines'
+# FEED_STORE_EMPTY = False
