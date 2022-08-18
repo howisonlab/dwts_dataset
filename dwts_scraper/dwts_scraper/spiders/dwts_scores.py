@@ -41,7 +41,7 @@ class DwtsScoresSpider(CrawlSpider):
             judge_html = score_table.xpath('./preceding-sibling::p//*[contains(text(), "Individual judge")]')[-1]
             judge_sentence = ''.join(judge_html.xpath('./descendant-or-self::*/text()').getall())
             # 'Individual judges scores in the chart below (given in parentheses) are listed in this order from left to right: Carrie Ann Inaba, Len Goodman, Robin Roberts, Bruno Tonioli'
-            judges = judge_sentence.split(": ")[-1].split(", ")
+            judges = [j.rstrip(' .') for j in judge_sentence.split(": ")[-1].split(", ")]
             
             yield{
                 'season': season,
