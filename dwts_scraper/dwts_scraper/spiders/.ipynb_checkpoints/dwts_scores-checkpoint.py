@@ -2,6 +2,8 @@ import scrapy
 from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
 
+from ..items import DwtsScraperItem
+
 from scrapy.shell import inspect_response
 
 import pandas as pd
@@ -19,7 +21,9 @@ class DwtsScoresSpider(CrawlSpider):
     def parse_item(self, response):
         # inspect_response(response, self)
         
-        season = response.xpath('string(//*[@id="firstHeading"]/text())').re(r'(\d+)\)$')[0]
+        item = DwtsScraperItem()
+        
+        item['season'] = response.xpath('string(//*[@id="firstHeading"]/text())').re(r'(\d+)\)$')[0]
         
         # Judges unless mentioned just above table for the week.
         weekly_scores = response.xpath('//*[@id="Weekly_scores"]')
@@ -31,23 +35,22 @@ class DwtsScoresSpider(CrawlSpider):
         
         for week_tag in weekly_scores.xpath('../following-sibling::h3/span[@class="mw-headline"]'):
             
-            week = week_tag.xpath('./text()').get()
+            item['week'] = week_tag.xpath('./text()').get()
             
             score_table = week_tag.xpath('../following-sibling::table')[0]
+            
             # read_html always returns a list even when it's a single item
             score_pandas = pd.read_html(score_table.get())[0].fillna('')
             
+            item['score_table'] = score_pandas.to_dict('records')
+            
             # Judges are in a sentence just above the table (or a few tables up).
             judge_html = score_table.xpath('./preceding-sibling::p//*[contains(text(), "Individual judge")]')[-1]
-            judge_sentence = ''.join(judge_html.xpath('./descendant-or-self::*/text()').getall())
-            # 'Individual judges scores in the chart below (given in parentheses) are listed in this order from left to right: Carrie Ann Inaba, Len Goodman, Robin Roberts, Bruno Tonioli'
-            judges = [j.rstrip(' .') for j in judge_sentence.split(": ")[-1].split(", ")]
+            item['judge_sentence'] = ''.join(judge_html.xpath('./descendant-or-self::*/text()').getall())
             
-            yield{
-                'season': season,
-                'week': week,
-                'judges': judges,
-                'judge_sentence': judge_sentence,
-                'score_table': score_pandas.to_dict('records')
-            }
+            # 'Individual judges scores in the chart below (given in parentheses) are listed in this order 
+            # from left to right: Carrie Ann Inaba, Len Goodman, Robin Roberts, Bruno Tonioli'
+            item['judges'] = [j.rstrip(' .') for j in item['judge_sentence'].split(": ")[-1].split(", ")]
+            
+            yield item
             
