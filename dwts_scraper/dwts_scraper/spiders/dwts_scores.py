@@ -17,15 +17,15 @@ class DwtsScoresSpider(CrawlSpider):
     start_urls = ['https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_season_1)']
 
     rules = (
-        Rule(LinkExtractor(allow=r'wiki/Dancing_with_the_Stars_\(American_season_(20|9)\)$'), callback='parse_item', follow=True),
+        Rule(LinkExtractor(allow=r'wiki/Dancing_with_the_Stars_\(American_season_\d+\)$'), callback='parse_item', follow=True),
     )
 
     def parse_item(self, response):
         # inspect_response(response, self)
         
-        item = DwtsScraperItem()
+        # item = DwtsScraperItem()
         
-        item['season'] = response.xpath('string(//*[@id="firstHeading"]/text())').re(r'(\d+)\)$')[0]
+        season = response.xpath('string(//*[@id="firstHeading"]/text())').re(r'(\d+)\)$')[0]
         
         weekly_scores = response.xpath('//*[@id="Weekly_scores"]')
         
@@ -36,7 +36,7 @@ class DwtsScoresSpider(CrawlSpider):
         
         for week_tag in weekly_scores.xpath('../following-sibling::h3/span[@class="mw-headline"]'):
             
-            item['week'] = week_tag.xpath('./text()').get()
+            week = week_tag.xpath('./text()').get()
             
             # Get score table, parse using Pandas.read_html which handles rowspan/colspan
             score_table = week_tag.xpath('../following-sibling::table')[0]
@@ -45,15 +45,24 @@ class DwtsScoresSpider(CrawlSpider):
                         # remove footnote refs from column headers.
             score_pandas = score_pandas.rename(columns=lambda x: re.sub(r'\[.*?\]','',x))
             score_pandas = score_pandas.clean_names()
-            item['score_table'] = score_pandas.to_dict('records') # records gets col = value for each row
+            
+            score_pandas['season'] = season
+            score_pandas['week'] = week
+            
+#             item['score_table'] = score_pandas.to_dict('records') # records gets col = value for each row
             
             # Judges are in a sentence just above the table (or a few tables up).
             judge_html = score_table.xpath('./preceding-sibling::p//*[contains(text(), "Individual judge")]')[-1]
-            item['judge_sentence'] = ''.join(judge_html.xpath('./descendant-or-self::*/text()').getall())
+            # item['judge_sentence'] = ''.join(judge_html.xpath('./descendant-or-self::*/text()').getall())
             
             # 'Individual judges scores in the chart below (given in parentheses) are listed in this order 
             # from left to right: Carrie Ann Inaba, Len Goodman, Robin Roberts, Bruno Tonioli'
-            item['judges'] = [j.strip(' .') for j in item['judge_sentence'].split(":")[-1].split(", ")]
+            # item['judges'] = [j.strip(' .') for j in item['judge_sentence'].split(":")[-1].split(", ")]
             
-            yield item
+            judge_sentence = ''.join(judge_html.xpath('./descendant-or-self::*/text()').getall())
+            score_pandas['judge_phrase'] = judge_sentence.split(':')[-1]
+            # judges = [j.strip(' .') for j in judge_sentence.split(":")[-1].split(", ")]
+            
+            for row in score_pandas.to_dict('records'):
+                yield row 
             
