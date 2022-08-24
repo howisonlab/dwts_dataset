@@ -41,7 +41,7 @@ class DwtsScoresSpider(CrawlSpider):
             # Get score table, parse using Pandas.read_html which handles rowspan/colspan
             score_table = week_tag.xpath('../following-sibling::table')[0]
 
-            score_pandas = pd.read_html(score_table.get())[0].fillna('') # read_html returns list of tables
+            score_pandas = pd.read_html(score_table.get().replace('<br>','---'))[0].fillna('') # read_html returns list of tables
                         # remove footnote refs from column headers.
             score_pandas = score_pandas.rename(columns=lambda x: re.sub(r'\[.*?\]','',x))
             score_pandas = score_pandas.clean_names()
@@ -66,3 +66,20 @@ class DwtsScoresSpider(CrawlSpider):
             for row in score_pandas.to_dict('records'):
                 yield row 
             
+
+            
+"""
+Unresolved issues:
+https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_season_9)#Weekly_scores has "Dance Off" header row.  How is that handled by pandas.read_html?
+
+Some tables have score instead of scores
+e.g., https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_season_17)#Weekly_scores week 3
+https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_season_20)#Weekly_scores Week 5.
+
+Some tables have technical and performance scores.
+
+https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_season_11)#Weekly_scores  Week 4.
+https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_season_10)#Weekly_scores Week 4.
+
+Some scores are X.  Whe
+"""

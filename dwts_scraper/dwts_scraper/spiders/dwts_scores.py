@@ -41,7 +41,7 @@ class DwtsScoresSpider(CrawlSpider):
             # Get score table, parse using Pandas.read_html which handles rowspan/colspan
             score_table = week_tag.xpath('../following-sibling::table')[0]
 
-            score_pandas = pd.read_html(score_table.get())[0].fillna('') # read_html returns list of tables
+            score_pandas = pd.read_html(score_table.get().replace('<br>','---'))[0].fillna('') # read_html returns list of tables
                         # remove footnote refs from column headers.
             score_pandas = score_pandas.rename(columns=lambda x: re.sub(r'\[.*?\]','',x))
             score_pandas = score_pandas.clean_names()
