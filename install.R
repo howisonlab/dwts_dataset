@@ -1,0 +1,5 @@
+install.packages('tidygeocoder')
+install.packages('janitor')
+install.packages('weathermetrics')
+install.packages('chillR')
+install.packages('GSODR')
