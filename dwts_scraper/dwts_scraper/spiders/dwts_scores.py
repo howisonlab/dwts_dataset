@@ -56,8 +56,10 @@ class DwtsScoresSpider(CrawlSpider):
                 break
             
             elif tag_name == "h3": # new week
-                week = tag.xpath('./span/text()').get()
-            
+                week_title = tag.xpath('./span/text()').get()
+           #     week = re.search(r'Week (\d+)').group(1)
+           #     week_theme = week_title.split(": ")[-1]
+                
             elif tag_name == "table": # new table, check for judge statement
                 # reset either way so not carried over to next table
                 did_find_guest = False
@@ -105,7 +107,8 @@ class DwtsScoresSpider(CrawlSpider):
                 score_pandas = score_pandas.clean_names()
 
                 score_pandas['season'] = season
-                score_pandas['week'] = week
+                # score_pandas['week'] = week
+                score_pandas['week_title'] = week_title
 
 
                 score_pandas['judge_phrase'] = judge_sentence.split(': ')[-1]
