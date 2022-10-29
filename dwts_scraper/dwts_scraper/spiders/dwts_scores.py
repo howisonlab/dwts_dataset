@@ -18,7 +18,7 @@ class DwtsScoresSpider(CrawlSpider):
 
     rules = (
         Rule(LinkExtractor(allow=r'wiki/Dancing_with_the_Stars_\(American_season_\d+\)$'), callback='parse_item', follow=True),
-#       Rule(LinkExtractor(allow=r'wiki/Dancing_with_the_Stars_\(American_season_11\)$'), callback='parse_item', follow=True),
+#       Rule(LinkExtractor(allow=r'wiki/Dancing_with_the_Stars_\(American_season_31\)$'), callback='parse_item', follow=True),
     )
 
     def parse_item(self, response):
@@ -47,7 +47,9 @@ class DwtsScoresSpider(CrawlSpider):
         #     print(tag)
         
         # To parse this we need to iterate through the siblings; the page has a linear and not a nested structure.
-        for tag in weekly_scores.xpath('../following-sibling::*'):
+        
+        tags = weekly_scores.xpath('../following-sibling::*')
+        for index, tag in enumerate(tags):
            # print(tag.get())
             tag_name = tag.xpath('name()').get()
             if tag_name == "h2":  # Moves out of Weekly Scores
@@ -66,20 +68,28 @@ class DwtsScoresSpider(CrawlSpider):
                 # https://en.wikipedia.org/w/index.php?title=Dancing_with_the_Stars_(American_season_22)#Week_4:_Disney_Night
                 # check preceeding-sibling until hit either <table> or <h3>
                 
+                # trouble in https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_season_31)#Week_6:_Michael_Bubl%C3%A9_Night
+                # tags[39]
+                
               #  print(tag.get()) 
-                # preceding-sibling[1] gets immmediately prior but without the 1 it is top down order.
-                for previous_tag in reversed(tag.xpath('./preceding-sibling::*')): 
-                    # exit if hit tag showing previous section.
-                    print(previous_tag.get())
-                    print(did_find_guest)
+            
+                # Look backwards in the tag list using index.  weird results with preceding-sibling
+                keep_looking = True
+                earlier_index = index
+                while (keep_looking):
+                    earlier_index -= 1
+                    previous_tag = tags[earlier_index]
+    
                     if previous_tag.xpath('name()').get() in ["table","h3","h2"]:
                         if not did_find_guest:
                             judge_sentence = default_judge_sentence
                         break # stop searching previous tags above table.
+                        
                     elif previous_tag.xpath('name()').get() == "p":
                         p_text = ''.join(previous_tag.xpath('./descendant-or-self::*/text()').getall())
-                        if re.search(r'left to right', p_text):
+                        if re.search(r'Individual judge', p_text):
                             did_find_guest = True
+                            keep_looking = False
                             judge_sentence = p_text
                         
 #                 previous_week = tag.xpath('./preceding-sibling::h3[1]')
