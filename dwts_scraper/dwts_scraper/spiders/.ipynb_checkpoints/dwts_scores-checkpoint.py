@@ -28,6 +28,12 @@ class DwtsScoresSpider(CrawlSpider):
         
         season = response.xpath('string(//*[@id="firstHeading"]/text())').re(r'(\d+)\)$')[0]
         
+        # Create Cast dictionary.
+        cast_section = response.xpath('//*[@id="couples"]') 
+        cast_table = cast_section.xpath('./following-sibling::table[1]]')
+        
+        
+        
         weekly_scores = response.xpath('//*[@id="Weekly_scores"]')
         # print(weekly_scores.get())
         
