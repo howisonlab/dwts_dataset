@@ -2,4 +2,3 @@ Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
 Accept-Language: en
 User-Agent: Scrapy/2.6.2 (+https://scrapy.org)
 Accept-Encoding: gzip, deflate, br
-Cookie: WMF-Last-Access=17-Aug-2022; WMF-Last-Access-Global=17-Aug-2022
