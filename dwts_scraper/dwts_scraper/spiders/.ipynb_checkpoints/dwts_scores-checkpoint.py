@@ -9,6 +9,7 @@ from scrapy.shell import inspect_response
 import pandas as pd
 import re
 import janitor
+from nameparser import HumanName
 
 
 class DwtsScoresSpider(CrawlSpider):
@@ -17,9 +18,13 @@ class DwtsScoresSpider(CrawlSpider):
     start_urls = ['https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_season_1)']
 
     rules = (
-        Rule(LinkExtractor(allow=r'wiki/Dancing_with_the_Stars_\(American_season_\d+\)$'), callback='parse_item', follow=True),
-#       Rule(LinkExtractor(allow=r'wiki/Dancing_with_the_Stars_\(American_season_31\)$'), callback='parse_item', follow=True),
+#        Rule(LinkExtractor(allow=r'wiki/Dancing_with_the_Stars_\(American_season_\d+\)$'), callback='parse_item', follow=True),
+       Rule(LinkExtractor(allow=r'wiki/Dancing_with_the_Stars_\(American_season_22\)$'), callback='parse_item', follow=True),
     )
+    
+    def name_parse(self, str_name):
+        h_n = HumanName(str_name)
+        return (' '.join(getattr(h_n, comp) for comp in ['first', 'middle']))
 
     def parse_item(self, response):
         # inspect_response(response, self)
@@ -29,10 +34,47 @@ class DwtsScoresSpider(CrawlSpider):
         season = response.xpath('string(//*[@id="firstHeading"]/text())').re(r'(\d+)\)$')[0]
         
         # Create Cast dictionary.
-        cast_section = response.xpath('//*[@id="couples"]') 
-        cast_table = cast_section.xpath('./following-sibling::table[1]]')
+        cast_section = response.xpath('//*[@id="Couples"]') 
+        cast_table = cast_section.xpath('../following-sibling::table[1]')
         
+        cast_pandas = ( 
+            pd.read_html(cast_table.get().replace('<br>','---'))[0].fillna('') # read_html returns list of tables
+              .rename(columns=lambda x: re.sub(r'\[.*?\]','',x)) # remove footnote refs from column headers.
+              .clean_names()
+        )
         
+        # get pro lookup table.
+ #       cast_pros = cast_pandas.filter(['professional_partner'])
+ #       cast_pros['list_of_pros'] = cast_pros['professional_partner'].str.split('---')
+        all_pros = (
+            cast_pandas
+            .filter(['professional_partner'])
+            .assign(list_of_pros = lambda df_: df_.professional_partner.str.split('---'))
+            .filter(['list_of_pros'])
+            .explode(['list_of_pros'])
+            .rename(columns={'list_of_pros': 'professional'})
+            .assign(professional = lambda df_: df_.professional.str.replace(r'\(Week \d\)', '', regex = True).str.strip())
+            .drop_duplicates()
+            .assign(pro_name_part = lambda df_: df_.professional
+                                                   .apply(self.name_parse)
+                                                   .str.strip()
+                                                   .replace(['Maksim'], 'Maks')
+                                                   .replace(['Valentin'], 'Val')
+                   ) 
+        )
+            
+        print(all_pros)
+        
+        all_celebs = (
+            cast_pandas
+            .filter(['celebrity'])
+            .assign(celeb_name_part = lambda df_: df_.celebrity
+                                                     .apply(self.name_parse)
+                                                     .str.strip()
+                   )
+        )
+            
+        print(all_celebs)
         
         weekly_scores = response.xpath('//*[@id="Weekly_scores"]')
         # print(weekly_scores.get())
@@ -100,27 +142,58 @@ class DwtsScoresSpider(CrawlSpider):
                             keep_looking = False
                             judge_sentence = p_text
                         
-#                 previous_week = tag.xpath('./preceding-sibling::h3[1]')
-#                 p_after_week = previous_week.xpath('./following-sibling::p[1]')
-# #                 if previous_tag.xpath('name()').get() == "p":
-#                 p_text = ''.join(p_after_week.xpath('./descendant-or-self::*/text()').getall())
-#                 if re.search(r'left to right', p_text):
-#                     judge_sentence = p_text
-                
-                score_pandas = pd.read_html(tag.get().replace('<br>','---'))[0].fillna('') # read_html returns list of tables
+                score_pandas = (
+                    pd.read_html(tag.get().replace('<br>','---'))[0].fillna('') # read_html returns list of tables
                         # remove footnote refs from column headers.
-                score_pandas = score_pandas.rename(columns=lambda x: re.sub(r'\[.*?\]','',x))
-                score_pandas = score_pandas.clean_names()
+                    .rename(columns=lambda x: re.sub(r'\[.*?\]','',x))
+                    .clean_names()
+                    .assign(season = season,
+                            week_title = week_title,
+                            judge_phrase = judge_sentence.split(': ')[-1]           
+                           )
+                    .query('~couple.str.contains("---")')
+                )
+                # print(score_pandas)
+                    
+#                 # score_pandas['week'] = week
+#                 score_pandas['week_title'] = week_title
 
-                score_pandas['season'] = season
-                # score_pandas['week'] = week
-                score_pandas['week_title'] = week_title
+#                 score_pandas['judge_phrase'] = judge_sentence.split(': ')[-1]
+                
+#                 score_pandas[['celeb_name_part', 'pro_name_part']] = score_pandas['couple'].str.split(" & ", expand = True)            
+    
+    
+#                 score_pandas = pd.read_html(tag.get().replace('<br>','---'))[0].fillna('') # read_html returns list of tables
+#                         # remove footnote refs from column headers.
+#                 score_pandas = score_pandas.rename(columns=lambda x: re.sub(r'\[.*?\]','',x))
+#                 score_pandas = score_pandas.clean_names()
 
+#                 score_pandas['season'] = season
+#                 # score_pandas['week'] = week
+#                 score_pandas['week_title'] = week_title
 
-                score_pandas['judge_phrase'] = judge_sentence.split(': ')[-1]
+#                 score_pandas['judge_phrase'] = judge_sentence.split(': ')[-1]
+               
+    
+                score_pandas[['celeb_name_part', 'pro_name_part']] = score_pandas['couple'].str.split(" & ", expand = True)
+                # join to cast_pandas.
+                
+                # To handle substitutions/switch-ups etc, need to separate celebs and pros.
+                # then split couple into celeb/pro names
+                # then join to celebs on celeb_name_part
+                # then join to pros on pro_name_part.
+                # But more pros than in the pros column. Need to split that field to get them all.
+                
+                with_names = (
+                    score_pandas
+                    .merge(all_pros, how='left', on='pro_name_part')
+                    .merge(all_celebs, how='left', on='celeb_name_part')
+                )
+                    
+                print(with_names)
 
-                for row in score_pandas.to_dict('records'):
-                    yield row 
+                # for row in with_names.to_dict('records'):
+                #      yield row 
             
             
         

@@ -2,3 +2,4 @@ scrapy
 pyjanitor
 pip-install-test
 html5lib
+nameparser
