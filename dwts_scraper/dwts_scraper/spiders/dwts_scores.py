@@ -10,6 +10,7 @@ import pandas as pd
 import re
 import janitor
 from nameparser import HumanName
+import numpy as np
 
 
 class DwtsScoresSpider(CrawlSpider):
@@ -18,8 +19,8 @@ class DwtsScoresSpider(CrawlSpider):
     start_urls = ['https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_season_1)']
 
     rules = (
-#        Rule(LinkExtractor(allow=r'wiki/Dancing_with_the_Stars_\(American_season_\d+\)$'), callback='parse_item', follow=True),
-       Rule(LinkExtractor(allow=r'wiki/Dancing_with_the_Stars_\(American_season_22\)$'), callback='parse_item', follow=True),
+        Rule(LinkExtractor(allow=r'wiki/Dancing_with_the_Stars_\(American_season_\d+\)$'), callback='parse_item', follow=True),
+#       Rule(LinkExtractor(allow=r'wiki/Dancing_with_the_Stars_\(American_season_11\)$'), callback='parse_item', follow=True),
     )
     
     def name_parse(self, str_name):
@@ -53,7 +54,7 @@ class DwtsScoresSpider(CrawlSpider):
             .filter(['list_of_pros'])
             .explode(['list_of_pros'])
             .rename(columns={'list_of_pros': 'professional'})
-            .assign(professional = lambda df_: df_.professional.str.replace(r'\(Week \d\)', '', regex = True).str.strip())
+            .assign(professional = lambda df_: df_.professional.str.replace(r'\(Week.*?\)', '', regex = True).str.strip(' '))
             .drop_duplicates()
             .assign(pro_name_part = lambda df_: df_.professional
                                                    .apply(self.name_parse)
@@ -62,19 +63,62 @@ class DwtsScoresSpider(CrawlSpider):
                                                    .replace(['Valentin'], 'Val')
                    ) 
         )
+        
+        # In one season there is both Anna Demidova ('Anna D.' and Anna Trebunskaya 'Anna T.'
+        # https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_season_9)
+        if (all_pros.professional.str.contains("Anna Demidova").any()):
+            # df_final['judge'] = np.where(df_final['judge'] == 'Guest judge', df_final['guest_judge'], df_final['judge'])
+            all_pros.pro_name_part = np.where(all_pros.professional == "Anna Demidova", "Anna D.", all_pros.pro_name_part)
+            all_pros.pro_name_part = np.where(all_pros.professional == "Anna Trebunskaya", "Anna T.", all_pros.pro_name_part)
             
-        print(all_pros)
         
         all_celebs = (
             cast_pandas
-            .filter(['celebrity'])
-            .assign(celeb_name_part = lambda df_: df_.celebrity
+            .rename(columns={'notability_known_for_': 'notability'})
+            .filter(['celebrity','notability'])
+            .assign(
+                celebrity = lambda df_: df_.celebrity.str.replace(r'---S.*?$', '', regex = True), 
+                celeb_name_part = lambda df_: df_.celebrity
+                                                     # .replace(['Mike "The Miz" Mizanin'], 'Miz Mizanin')
+                                                     # .replace(['Bill Engvall'], 'Bill E. Engvall')
+                                                     # .replace(['Bill Nye'], 'Bill N. Nye')
+                                                      # removes ---Season 7 all-stars
+                                                     # .str.replace(r'---S.*?$', '', regex = True) 
                                                      .apply(self.name_parse)
                                                      .str.strip()
+                                                     .replace(['Brian Austin'], 'Brian')
+                                                     .replace(['Miz'], 'The Miz')
+                                                     .replace(['Jessie James'], 'Jessie')
+                                                     .replace(['Metta World'], 'Metta')
+                                                     .replace(['Apolo Anton'], 'Apolo')
+                                                     .replace(['P'], 'Master P')
+                                                     .replace(['Melissa Joan'], 'Melissa')
+                                                     .replace(['Lil\''], 'Lil\' Kim')  
+                                                     .replace(['David Alan'], 'David')
+                                                     .replace(['Marissa Jaret'], 'Marissa')
+                                                     .replace(['Vivica A.'], 'Vivica')
+                                                     .replace(['Candace Cameron'], 'Candace')
+                                                     # .replace(['D.L'], 'D.L.') # fixed on page
+                                                     .replace(['The'], 'The Situation') # hope there is only one
+                                                     .replace(['Vanilla'], 'Vanilla Ice')
+                                                     .replace(['Jake T.'], 'Jake')
+                                                     .replace(['Jennie Finch'], 'Jennie')
+                                                     .replace(['Elizabeth Berkley'], 'Elizabeth')
+                                                     
                    )
         )
-            
-        print(all_celebs)
+        # Note the above can be replaced by putting all the special cases into a dict (much more natural)
+        # and using .replace(to_replace = name_special_cases).
+        
+        if (all_celebs.celebrity.str.contains("Bill Nye").any()):
+            all_celebs.celeb_name_part = np.where(all_celebs.celebrity == "Bill Nye", "Bill N.",  all_celebs.celeb_name_part)
+            all_celebs.celeb_name_part = np.where(all_celebs.celebrity == "Bill Engvall", "Bill E.",  all_celebs.celeb_name_part)
+        
+        all_celebs.celeb_name_part = np.where(all_celebs.celebrity == 'Mike "The Miz" Mizanin', 'The Miz',  all_celebs.celeb_name_part)
+        all_celebs.celeb_name_part = np.where(all_celebs.celebrity == 'Sailor Brinkley-Cook', 'Sailor',  all_celebs.celeb_name_part)
+        all_celebs.celeb_name_part = np.where(all_celebs.celebrity == 'Mr. T', 'Mr. T',  all_celebs.celeb_name_part)
+        
+        # Note that these can likely be done with Series.where
         
         weekly_scores = response.xpath('//*[@id="Weekly_scores"]')
         # print(weekly_scores.get())
@@ -149,32 +193,20 @@ class DwtsScoresSpider(CrawlSpider):
                     .clean_names()
                     .assign(season = season,
                             week_title = week_title,
-                            judge_phrase = judge_sentence.split(': ')[-1]           
+                            judge_phrase = judge_sentence.split(': ')[-1],
+                            couple = lambda df_: df_.couple.str.replace(r'\[\w\]','',regex = True),
                            )
-                    .query('~couple.str.contains("---")')
+                    .assign(couple = lambda df_: df_.couple.replace(['D.L & Cheryl'],'D.L. & Cheryl'))
+                    .query('~couple.str.contains("---")') # removes multiple couple dances.  revisit this.
+                    .query('~couple.isnull()')
                 )
-                # print(score_pandas)
-                    
-#                 # score_pandas['week'] = week
-#                 score_pandas['week_title'] = week_title
-
-#                 score_pandas['judge_phrase'] = judge_sentence.split(': ')[-1]
                 
-#                 score_pandas[['celeb_name_part', 'pro_name_part']] = score_pandas['couple'].str.split(" & ", expand = True)            
-    
-    
-#                 score_pandas = pd.read_html(tag.get().replace('<br>','---'))[0].fillna('') # read_html returns list of tables
-#                         # remove footnote refs from column headers.
-#                 score_pandas = score_pandas.rename(columns=lambda x: re.sub(r'\[.*?\]','',x))
-#                 score_pandas = score_pandas.clean_names()
-
-#                 score_pandas['season'] = season
-#                 # score_pandas['week'] = week
-#                 score_pandas['week_title'] = week_title
-
-#                 score_pandas['judge_phrase'] = judge_sentence.split(': ')[-1]
-               
-    
+                # Note that the split might be better with:
+                # (age ... .str.split('-', expand=True) ... .iloc[:,0] ... .astype(int)
+                
+                if(score_pandas.shape[0] < 1):
+                    continue
+                
                 score_pandas[['celeb_name_part', 'pro_name_part']] = score_pandas['couple'].str.split(" & ", expand = True)
                 # join to cast_pandas.
                 
@@ -189,11 +221,16 @@ class DwtsScoresSpider(CrawlSpider):
                     .merge(all_pros, how='left', on='pro_name_part')
                     .merge(all_celebs, how='left', on='celeb_name_part')
                 )
-                    
-                print(with_names)
+                
+     
+                problems = with_names.query('celebrity.isnull() | professional.isnull()')
+                if(problems.shape[0] > 0):
+                    print(problems)
+                    print(all_pros)
+                    print(all_celebs)
 
-                # for row in with_names.to_dict('records'):
-                #      yield row 
+                for row in with_names.to_dict('records'):
+                      yield row 
             
             
         

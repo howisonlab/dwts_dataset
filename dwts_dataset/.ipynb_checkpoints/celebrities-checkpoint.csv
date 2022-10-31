@@ -1,0 +1,368 @@
+celebrity_id,celebrity,notability
+1,Erin Andrews,ESPN sportscaster
+2,Evan Lysacek,Olympic figure skater
+3,Niecy Nash,"Comedian, actress & host"
+4,Aiden Turner,All My Children actor
+5,Nicole Scherzinger,Pussycat Dolls singer
+6,Kurt Warner,NFL quarterback
+7,Jake Pavelka,The Bachelor star
+8,Kate Gosselin,Reality television star
+9,Chad Ochocinco,NFL wide receiver
+10,Brandy,Singer & actress
+11,Rick Fox,NBA small forward
+12,Kyle Massey,Disney Channel actor & rapper
+13,Pamela Anderson,Playboy model & actress
+14,The Situation,Jersey Shore star
+15,Florence Henderson,The Brady Bunch actress
+16,Jennifer Grey,Film & television actress
+17,Bristol Palin,"Activist, author &---daughter of Sarah Palin"
+18,Audrina Patridge,The Hills star
+19,George Hamilton,Actor
+20,Maria Menounos,Television host
+21,Metta World Peace,NBA small forward
+22,Chelsea Kane,Disney Channel actress
+23,Aaron Carter,Singer & actor
+24,Lil' Kim,Rapper
+25,Cody Linley,Hannah Montana actor
+26,Penn Jillette,Magician
+27,Jennie Garth,Television actress
+28,Ian Ziering,Television actor
+29,Joey Lawrence,Television actor
+30,Joey Fatone,NSYNC singer & actor
+31,Mary Lou Retton,Olympic gymnast
+32,Chris Mazdzer,Olympic luger
+33,Terrell Owens,NFL wide receiver
+34,Normani,Fifth Harmony singer
+35,Marilu Henner,"Actress, broadcaster & author"
+36,Lisa Rinna,Television actress & host
+37,Kenny Mayne,ESPN anchorman
+38,Stacy Keibler,WWE Diva
+39,Jack Wagner,Actor & singer
+40,Donald Driver,NFL wide receiver
+41,Gavin DeGraw,Singer-songwriter
+42,Roshon Fegan,Disney Channel actor & rapper
+43,Sherri Shepherd,The View panelist & actress
+44,Kim Fields,Actress & reality television star
+45,Rob Kardashian,Reality television star
+46,Kristin Cavallari,Reality television star
+47,Chynna Phillips,Wilson Phillips singer---& solo artist
+48,Wendy Williams,Talk show host & author
+49,Hines Ward,NFL wide receiver
+50,Petra Němcová,Supermodel
+51,Romeo,Rapper & actor
+52,Margaret Cho,Stand-up comedian
+53,Shannen Doherty,Film & television actress
+54,Chuck Liddell,UFC fighter
+55,Mark Dacascos,Iron Chef America chairman
+56,Victor Espinoza,Jockey
+57,Belinda Carlisle,Singer-songwriter
+58,Lawrence Taylor,NFL linebacker
+59,Steve-O,Jackass star
+60,Willow Shields,The Hunger Games actress
+61,Antonio Sabàto Jr.,General Hospital actor & model
+62,Rocco DiSpirito,Celebrity chef & author
+63,Toni Braxton,Singer-songwriter
+64,Maurice Greene,Olympic sprinter
+65,Brooke Burke,Model & television host
+66,Ted McGinley,Film & television actor
+67,NeNe Leakes,Reality television star & actress
+68,Jason Taylor,NFL defensive end
+69,Cristián de la Fuente,Film & television actor
+70,Adam Carolla,Comedian & radio host
+71,Josie Maran,Model & actress
+72,Sabrina Bryan,The Cheetah Girls singer & actress
+73,Marie Osmond,Entertainer
+74,Mel B,Spice Girls singer
+75,Jane Seymour,Film & television actress
+76,Paulina Porizkova,Supermodel
+77,Billy Ray Cyrus,Country music singer & actor
+78,Leeza Gibbons,Talk-show host
+79,Sara Evans,Country music singer
+80,Tucker Carlson,News anchor & commentator
+81,Monique Coleman,High School Musical actress
+82,Emmitt Smith,NFL running back
+83,Brant Daugherty,Pretty Little Liars actor
+84,Shawn Johnson,Olympic gymnast
+85,Hélio Castroneves,Indy 500 champion
+86,Milo Manheim,Disney Channel star
+87,Evanna Lynch,Harry Potter actress & activist
+88,Danelle Umstead,Paralympic alpine skier
+89,Bobby Bones,Radio personality
+90,Kareem Abdul-Jabbar,NBA center
+91,Jennie Finch Daigle,Olympic softball pitcher
+92,Jamie Anderson,Olympic snowboarder
+93,Mirai Nagasu,Olympic figure skater
+94,Arike Ogunbowale,Women's basketball player
+95,Debbie Gibson,Singer-songwriter---& Broadway actress
+96,Sasha Pieterse,Pretty Little Liars actress
+97,Drew Scott,Property Brothers co-host
+98,Barbara Corcoran,Shark Tank panelist---& businesswoman
+99,Nancy Kerrigan,Olympic figure skater
+100,Chris Kattan,Actor & comedian
+101,Bonner Bolton,Model & bull rider
+102,Charo,"Actress, comedian & musician"
+103,Nick Viall,The Bachelor star
+104,Kellie Pickler,Country music singer
+105,James Hinchcliffe,IndyCar driver
+106,Calvin Johnson Jr.,NFL wide receiver
+107,Maureen McCormick,Actress & author
+108,Babyface,Singer-songwriter &---record producer
+109,Joey McIntyre,New Kids on the Block singer
+110,Jordin Sparks,Singer-songwriter & actress
+111,Drew Lachey,98 Degrees singer
+112,Tia Carrere,Actress & model
+113,Master P,Rapper & entrepreneur
+114,Melissa Gilbert,Actress
+115,William Levy,Telenovela actor
+116,Martina Navratilova,Professional tennis player
+117,Katherine Jenkins,Classical singer
+118,Paige VanZant,UFC fighter & model
+119,Doug Flutie,NFL quarterback
+120,Jodie Sweetin,Full House actress
+121,Geraldo Rivera,Journalist & talk show host
+122,Marla Maples,Actress & television personality
+123,Nancy Grace,HLN host & prosecutor
+124,David Arquette,Actor
+125,Elisabetta Canalis,Model & actress
+126,Hope Solo,USA soccer team goalkeeper
+127,Sugar Ray Leonard,Professional boxer
+128,Kendra Wilkinson,Model & reality television star
+129,Ralph Macchio,Film actor
+130,Chris Jericho,WWE wrestler
+131,Mike Catherwood,Radio personality
+132,Michael Bolton,Singer-songwriter
+133,Buzz Aldrin,Apollo 11 astronaut
+134,Ashley Hamilton,Actor & comedian
+135,Donny Osmond,Singer & actor
+136,Louie Vito,Snowboarder
+137,Michael Irvin,NFL player
+138,Tamar Braxton,R&B singer & reality television star
+139,Chaka Khan,Funk & R&B singer
+140,Hayes Grier,Vine & social media personality
+141,Andy Grammer,Singer-songwriter
+142,Gilles Marini,Actor
+143,Chuck Wicks,Country singer
+144,Holly Madison,Playboy model &---reality television star
+145,Robert Herjavec,Shark Tank panelist & businessman
+146,Riker Lynch,R5 singer & actor
+147,Charlotte McKinney,Model & actress
+148,Patti LaBelle,Soul singer
+149,Lea Thompson,Film & television actress
+150,Janel Parrish,Pretty Little Liars actress
+151,Lolo Jones,Olympic athlete
+152,Betsey Johnson,Fashion designer
+153,Lance Bass,NSYNC singer
+154,Cloris Leachman,Film & television actress
+155,Jeffrey Ross,Stand-up comedian
+156,Kim Kardashian,Reality television star
+157,James Maslow,Big Time Rush singer & actor
+158,Danica McKellar,The Wonder Years actress & author
+159,Sean Avery,NHL player
+160,Billy Dee Williams,Movie actor
+161,Mario,R&B singer
+162,Steve Guttenberg,Film actor
+163,Shannon Elizabeth,American Pie actress
+164,Cameron Mathison,All My Children actor & TV host
+165,Laila Ali,Professional boxer
+166,John Ratzenberger,Film & television actor & author
+167,Shandi Finnessey,Miss USA 2004
+168,Clyde Drexler,NBA player
+169,Willa Ford,Pop singer & actress
+170,Mario Lopez,Television actor & host
+171,Shanna Moakler,"Model, actress & reality television star"
+172,Leah Remini,Sitcom actress
+173,Corbin Bleu,High School Musical actor
+174,Jack Osbourne,Reality television star
+175,Melissa Rycroft,Television presenter
+176,Apolo Anton Ohno,Olympic short track---speed skater
+177,Juan Pablo Di Pace,Fuller House actor
+178,Nikki Glaser,Comedian & podcast host
+179,Alexis Ren,Model & social media personality
+180,John Schneider,Actor & country music singer
+181,Adam Rippon,Olympic figure skater
+182,Johnny Damon,MLB outfielder
+183,Tonya Harding,Olympic figure skater
+184,Josh Norman,NFL cornerback
+185,Jordan Fisher,Actor & singer
+186,Nick Lachey,98 Degrees singer
+187,Vanessa Lachey,Actress & television host
+188,Frankie Muniz,Actor & race car driver
+189,Nikki Bella,WWE wrestler
+190,Heather Morris,Glee actress & dancer
+191,David Ross,MLB catcher
+192,Erika Jayne,Singer & reality television star
+193,Rashad Jennings,NFL running back
+194,Victor Ortiz,Professional boxer
+195,Ingo Rademacher,General Hospital actor
+196,Lisa Vanderpump,Reality television star
+197,D.L. Hughley,Comedian & television actor
+198,Amber Rose,Model & actress
+199,Vanilla Ice,Rapper & actor
+200,Jana Kramer,Country music singer & actress
+201,Jake T. Austin,Actor
+202,Rachel Hunter,Supermodel
+203,Evander Holyfield,Heavyweight boxer
+204,Kelly Monaco,General Hospital actress
+205,John O'Hurley,Television actor---& game show host
+206,Sam Champion,Good Morning America meteorologist
+207,Heidi D'Amelio,Social media personality
+208,Daniel Durant,Film & television actor
+209,Jessie James Decker,Country music singer
+210,Giselle Fernandez,Television journalist
+211,Jerry Rice,NFL wide receiver
+212,Tatum O'Neal,Film actress
+213,Gladys Knight,Soul singer
+214,Jaleel White,Television actor
+215,Wanyá Morris,Boyz II Men singer
+216,Ginger Zee,Good Morning America---meteorologist
+217,Mischa Barton,Film & television actress
+218,Nyle DiMarco,Model & actor
+219,Carson Kressley,Television host
+220,J.R. Martinez,Actor & Army veteran
+221,Ricki Lake,Actress & talk show host
+222,Chaz Bono,Transgender activist & author
+223,Kirstie Alley,Film & television actress
+224,David Hasselhoff,Actor & singer
+225,Tom DeLay,U.S. House Majority Leader
+226,Paula Deen,Celebrity chef & businesswoman
+227,Carlos PenaVega,Big Time Rush singer & actor
+228,Alexa PenaVega,Film & television actress
+229,Kim Zolciak-Biermann,Reality television star
+230,Ty Murray,Rodeo cowboy
+231,Steve Wozniak,Apple co-founder
+232,David Alan Grier,Actor & comedian
+233,Chris Soules,The Bachelor star
+234,Michael Sam,NFL defensive end
+235,Nastia Liukin,Olympic artistic gymnast
+236,Tavis Smiley,Television & radio broadcaster
+237,Sadie Robertson,Duck Dynasty star
+238,Michael Waltrip,NASCAR racer
+239,Jonathan Bennett,Mean Girls actor
+240,Susan Lucci,All My Children actress
+241,Misty May-Treanor,Olympic beach volleyball player
+242,Warren Sapp,NFL defensive tackle
+243,Meryl Davis,Olympic ice dancer
+244,Candace Cameron Bure,Full House actress & author
+245,Cody Simpson,Singer-songwriter
+246,Drew Carey,"Television host, actor & comedian"
+247,Monica Seles,Professional tennis player
+248,Marissa Jaret Winokur,Broadway actress
+249,Priscilla Presley,Actress & businesswoman
+250,Kristi Yamaguchi,Olympic figure skater
+251,Floyd Mayweather Jr.,Professional boxer
+252,Albert Reed,Supermodel
+253,Heather Mills,Model & charity campaigner
+254,Harry Hamlin,Film & television actor
+255,Vivica A. Fox,Film actress & producer
+256,Jerry Springer,Talk show host
+257,Amber Riley,Glee actress
+258,Elizabeth Berkley Lauren,Film & television actress
+259,Bill Nye,Science education host
+260,Tinashe,Singer-songwriter
+261,Nancy McKeon,The Facts of Life actress
+262,Joe Amabile,Reality television star
+263,Derek Fisher,NBA point guard
+264,Victoria Arlen,Paralympic swimmer---& ESPN host
+265,Lindsey Stirling,Violinist & composer
+266,Mr. T,Actor & wrestler
+267,Simone Biles,Olympic artistic gymnast
+268,Zendaya,Disney Channel star
+269,Sean Lowe,Reality television star
+270,Alexandra Raisman,Olympic gymnast
+271,Dorothy Hamill,Olympic figure skater
+272,Rick Perry,Governor of Texas
+273,Terra Jolé,Reality television star
+274,Ryan Lochte,Olympic swimmer
+275,Laurie Hernandez,Olympic artistic gymnast
+276,Trista Sutter,The Bachelorette star
+277,Teresa Giudice,The Real Housewives of New Jersey star
+278,Wayne Brady,"Comedian, actor & television personality"
+279,Cheryl Ladd,Charlie's Angels actress & author
+280,Vinny Guadagnino,Jersey Shore star
+281,Antonio Brown,NFL wide receiver
+282,Von Miller,NFL linebacker
+283,Bindi Irwin,Wildlife conservationist & actress
+284,Gary Busey,Film actor
+285,Alek Skarlatos,Legion of Honor recipient & soldier
+286,Nick Carter,Backstreet Boys singer
+287,Denise Richards,Actress
+288,Redfoo,"LMFAO singer, producer & rapper"
+289,Noah Galloway,Soldier & personal trainer
+290,Suzanne Somers,Television actress & author
+291,Rumer Willis,Film & television actress
+292,Tommy Chong,Comedian & actor
+293,Randy Couture,UFC mixed martial artist
+294,Bethany Mota,YouTube personality
+295,Alfonso Ribeiro,Television actor
+296,Amy Purdy,Paralympic snowboarder[5]
+297,Diana Nyad,Long-distance swimmer
+298,Charlie White,Olympic ice dancer
+299,Marlee Matlin,Film & television actress
+300,Mark Cuban,Dallas Mavericks owner---& entrepreneur
+301,Wayne Newton,Las Vegas entertainer
+302,Keyshawn Johnson,NFL wide receiver
+303,Christina Milian,Singer & actress
+304,Bill Engvall,Stand-up comedian & actor
+305,Valerie Harper,Television actress
+306,DeMarcus Ware,NFL linebacker
+307,Wynonna Judd,Country music singer
+308,Andy Dick,Actor & comedian
+309,Jacoby Jones,NFL wide receiver
+310,Shangela,Drag queen & RuPaul's Drag Race star
+311,Trevor Donovan,Actor & model
+312,Gabby Windey,The Bachelorette star
+313,Joseph Baena,Professional bodybuilder & actor
+314,Debi Mazar,Film & television actress
+315,"Nicole ""Snooki"" Polizzi",Jersey Shore star
+316,Jason Lewis,Sex and the City actor
+317,Selma Blair,Film & television actress
+318,Charli D'Amelio,Social media personality & dancer
+319,Melissa Joan Hart,Television actress
+320,Mýa,Singer-songwriter & actress
+321,Kathy Ireland,Model & entrepreneur
+322,Natalie Coughlin,Olympic swimmer
+323,Macy Gray,R&B singer
+324,Joanna Krupa,Model & actress
+325,Kelly Osbourne,Reality television star & singer
+326,Melanie C,Spice Girls singer
+327,"Mike ""The Miz"" Mizanin",WWE wrestler
+328,Iman Shumpert,NBA shooting guard
+329,Olivia Jade,Social media personality
+330,Jimmie Allen,Country music singer
+331,Melora Hardin,Film & television actress
+332,Suni Lee,Olympic artistic gymnast
+333,Cody Rigsby,Peloton instructor & fitness personality
+334,Amanda Kloots,The Talk co-host
+335,Martin Kove,Film & television actor
+336,Kenya Moore,The Real Housewives of Atlanta star
+337,Christine Chiu,Bling Empire star
+338,Matt James,The Bachelor star
+339,Brian Austin Green,Television actor
+340,JoJo Siwa,"YouTube personality, dancer & singer"
+341,AJ McLean,Backstreet Boys singer
+342,Chrishell Stause,Actress & Selling Sunset star
+343,Vernon Davis,NFL tight end
+344,Anne Heche,Film & television actress
+345,Jeannie Mai,Television host & stylist
+346,Jesse Metcalfe,Film & television actor
+347,Skai Jackson,Disney Channel actress
+348,Kaitlyn Bristowe,The Bachelorette star
+349,Nev Schulman,Catfish host & producer
+350,Johnny Weir,Olympic figure skater
+351,Justina Machado,Film & television actress
+352,Charles Oakley,NBA power forward
+353,Monica Aldama,Cheer star & coach
+354,Nelly,Rapper & singer
+355,Hannah Brown,The Bachelorette star
+356,Carole Baskin,Tiger King star & animal activist
+357,Kel Mitchell,Actor & comedian
+358,Kate Flannery,The Office actress
+359,Lamar Odom,NBA forward
+360,Lauren Alaina,Country music singer
+361,Sailor Brinkley-Cook,Model &---daughter of Christie Brinkley
+362,Karamo Brown,Queer Eye expert & activist
+363,Ray Lewis,NFL linebacker
+364,Mary Wilson,The Supremes singer
+365,Ally Brooke,Fifth Harmony singer
+366,Sean Spicer,White House Press Secretary
+367,James Van Der Beek,Dawson's Creek actor

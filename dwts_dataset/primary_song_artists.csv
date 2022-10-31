@@ -1,1451 +1,1451 @@
-primary_song_artist_id,primary_song_artist
-1,Eurythmics
-2,The Pussycat Dolls feat. Timbaland
-3,Celine Dion
-4,Kris Allen
-5,Roberta Flack
-6,Edwyn Collins
-7,Adam Lambert
-8,Alicia Keys
-9,Bonnie Raitt
-10,Train
-11,Kate Bush
-12,Astor Piazzolla
-13,B.o.B feat. Bruno Mars
-14,Tanghetto
-15,The Beatles
-16,Gerardo Matos Rodríguez
-17,Rihanna feat. Jay-Z
-18,Jefferson Airplane
-19,Santana
-20,Aretha Franklin
-21,Donna Summer
-22,Curtis Stigers
-23,Ricky Martin
-24,Beyoncé feat. Jay-Z
-25,Louis Armstrong
-26,The Jackson 5
-27,Roxette
-28,The Blackout All-Stars
-29,Lionel Richie
-30,Whitney Houston
-31,"Earth, Wind & Fire"
-32,Jackie DeShannon
-33,Elton John
-34,Norah Jones
-35,Aerosmith
-36,The Pointer Sisters
-37,Destiny's Child
-38,Fred Astaire
-39,Wham!
-40,John Travolta & Olivia Newton-John
-41,Diana Ross & Lionel Richie
-42,Irving Berlin
-43,Enrique Iglesias
-44,Sweet Charity
-45,Nelly Furtado
-46,Cherry Poppin' Daddies
-47,Berlin
-48,Duke Ellington
-49,Jackie Wilson
-50,The Contours
-51,Britney Spears
-52,Kenny Loggins
-53,Debelah Morgan
-54,Victor Silvester
-55,Queen
-56,Danny Malando
-57,Elvis Presley
-58,The Champs
-59,from Chicago
-60,The Tango Project
-61,Andy Fortuna
-62,Quincy Jones
-63,"Grover Washington, Jr. & Bill Withers"
-64,Mama Cass
-65,The Animals
-66,Michael Jackson
-67,Nat King Cole
-68,Julie London
-69,Europe
-70,Mexicana Aleque la-Band
-71,Gipsy Kings
-72,Shirley Bassey
-73,Miami Sound Machine
-74,Chic
-75,Barbra Streisand
-76,Stevie Wonder
-77,Survivor
-78,Christina Aguilera
-79,Erich Kunzel
-80,Jennifer Lopez
-81,The Black Eyed Peas
-82,Doris Day
-83,Dolly Parton
-84,All Saints
-85,Phil Collins
-86,Marilyn Monroe
-87,Pink
-88,Anita Baker
-89,Kelly Clarkson
-90,Blondie
-91,Toni Braxton
-92,Peggy Lee
-93,Gloria Gaynor
-94,Madonna
-95,Harry Connick Jr.
-96,Bonnie Tyler
-97,The Jimmy Castor Bunch
-98,Kool & The Gang
-99,Bee Gees
-100,Nouvelle Vague
-101,Ke$ha
-102,Seal
-103,Fontella Bass
-104,Big & Rich
-105,Edwin McCain
-106,Sam Cooke
-107,Ray LaMontagne
-108,Duran Duran
-109,Billy Joel
-110,ZZ Top
-111,Ray Charles
-112,Frank Sinatra
-113,Avril Lavigne
-114,Jennifer Hudson
-115,Huey Lewis and the News
-116,Rihanna
-117,Taylor Swift
-118,Five for Fighting
-119,The Bangles
-120,Billy Preston feat. Syreeta Wright
-121,Los Lobos feat. Antonio Banderas
-122,Dee C. Lee
-123,Lady Gaga
-124,Cole Porter feat.Stacey Kent
-125,Madcon
-126,Ritchie Valens
-127,Carl Douglas
-128,Mika
-129,Kander and Ebb
-130,Phil Harris
-131,Chuck Berry
-132,Bob Seger
-133,No Doubt
-134,James Brown
-135,The Troggs
-136,Simple Minds
-137,Roy Orbison
-138,The Revels
-139,Campo
-140,Robin Thicke
-141,Depeche Mode
-142,Tito Puente
-143,David Cook
-144,Mariah Carey
-145,Barry Manilow
-146,Lou Bega
-147,Little Boots
-148,Coldplay
-149,Debby Boone
-150,Billy & the Beaters
-151,Cole Porter
-152,Jazmine Sullivan
-153,Beyoncé
-154,Otis Redding
-155,Sonny & Cher
-156,Snap!
-157,Gotan Project
-158,Lillix
-159,John Waite
-160,Journey
-161,La Roux
-162,The White Stripes
-163,Little Richard
-164,Buddy Greco
-165,Michael Bublé
-166,Bo Diddley
-167,Josh Groban
-168,"José Feliciano, Ewan McGregor & Jacek Koman"
-169,The Primitives
-170,Jim Henson & Sam Pottle
-171,The Veronicas
-172,Prince
-173,Simply Red
-174,from The King and I
-175,Big Bad Voodoo Daddy
-176,Touch and Go
-177,Evanescence
-178,Quantic & Nikodemus
-179,Janet Jackson
-180,Johnny Rivers
-181,Heart
-182,Edwin Starr
-183,101 Strings Orchestra
-184,Robert Palmer
-185,King Africa
-186,Shakira
-187,Kevin Lyttle
-188,Chris De Burgh
-189,Lady Gaga featuring Colby O'Donis
-190,The Clash
-191,Dana Glover
-192,John Paul Young
-193,Lionel Richie & Diana Ross
-194,The Black Crowes
-195,Ike & Tina Turner
-196,Bachman-Turner Overdrive
-197,Poison
-198,Andy Williams
-199,Sérgio Mendes
-200,War
-201,Letters To Cleo
-202,"Harry Connick, Jr."
-203,Brooks and Dunn
-204,Angel Melendez and the 911 Orchestra
-205,from Grease
-206,Bob Wilson & his Varsity Rhythm Boys
-207,Leona Lewis
-208,Gloria Estefan
-209,LeAnn Rimes
-210,Nelly & Christina Aguilera
-211,Rascal Flatts
-212,Johnny Pacheco
-213,Buddy Holly
-214,Liza Minnelli
-215,Kaoma
-216,Squirrel Nut Zippers
-217,Stray Cats
-218,Carlos Santana feat. Rob Thomas
-219,Fred Wesley & The J.B.'s
-220,The Chi-Lites
-221,Michael Franti & Spearhead
-222,The Brian Setzer Orchestra
-223,Teddybears
-224,Randy Crawford
-225,Lynyrd Skynyrd
-226,The Guess Who
-227,The Beach Boys
-228,The Rolling Stones
-229,3 Doors Down
-230,Semyon Bychkov & Orchestre de Paris
-231,Jem
-232,Wild Cherry
-233,Henry Mancini
-234,Marvin Gaye
-235,Filter
-236,Rodrigo y Gabriela
-237,Orquesta Color Tango de Roberto Alvarez
-238,Otros Aires
-239,Natalie Cole
-240,The Cure
-241,Sugarland
-242,Akon
-243,Jason Mraz
-244,Lalo Schifrin & Orchestra Ensemble
-245,Ozzy Osbourne
-246,Sarah Vaughan
-247,Angel & the Mambokats
-248,Ryan Shaw
-249,Harry Belafonte
-250,The Temptations
-251,Los Fabulosos Cadillacs
-252,Eddie Cochran
-253,Tina Turner
-254,Della Reese
-255,Letters to Cleo
-256,Alberto Plaza
-257,Brian Setzer Orchestra
-258,The Commodores
-259,David Sanborn
-260,Donovan
-261,Sonora Carrulseles
-262,The Arthur Murray Orchestra
-263,Sir Mix-a-Lot
-264,The Newbeats
-265,The Tractors
-266,Indigo Swing
-267,Bobby Darin
-268,Colbie Caillat
-269,Flo Rida feat. T-Pain
-270,Nina Simone
-271,Karl Jenkins
-272,Lou Rawls
-273,Katy Perry
-274,James Morrison
-275,Conjunto Tipico Del Tango
-276,Brian Setzer
-277,Ástor Piazzolla
-278,Franz Ferdinand
-279,Maurice Ravel
-280,John Mayer
-281,Bond
-282,En Vogue
-283,Atomic Fireballs
-284,Connie Francis
-285,Diana Ross
-286,John Powell
-287,The Kinks
-288,Jessica Simpson
-289,Perez Prado
-290,The Blues Brothers
-291,Marc Broussard
-292,Bill Haley & His Comets
-293,Tom Jones
-294,Agustín Lara
-295,Vanessa Carlton
-296,Andrews Sisters
-297,Will Smith
-298,Dinah Washington
-299,Twisted Sister
-300,Rosemary Clooney
-301,No Doubt feat. Bounty Killer
-302,Ludwig van Beethoven
-303,Screamin' Jay Hawkins
-304,Charlotte Church
-305,Rufus Wainwright
-306,The Young Rascals
-307,Diana Krall
-308,Amy Winehouse
-309,KC and the Sunshine Band
-310,Pussycat Dolls
-311,The Supremes
-312,Alfred Hause's Tango Orchestra
-313,Adam Ant
-314,The Dandy Warhols
-315,Thalía
-316,Marc Shaiman
-317,Peter Allen
-318,Travis Tritt
-319,Eartha Kitt
-320,Van Morrison
-321,Alma Cogan
-322,Lalo Schifrin
-323,Electric Club Tango
-324,Club des Belugas
-325,Kreesha Turner
-326,OutKast
-327,Steve Lawrence
-328,Jason Mraz & Colbie Caillat
-329,Spin Doctors
-330,Mark Ronson feat. Amy Winehouse
-331,New Order
-332,Secondhand Serenade
-333,Fall Out Boy
-334,Maroon 5
-335,Roger Miller
-336,Barry White
-337,A-ha
-338,Trans-X
-339,Pixie Lott
-340,Etta James
-341,James Horner
-342, Lipps Inc.
-343,Angela Via feat. Joe Budden
-344,Deana Carter
-345,Nelly feat. City Spud
-346,Nena
-347,Dead or Alive
-348,Sam Sparro
-349,Canadian Brass
-350,Billy Idol
-351,The Pretenders
-352,KT Tunstall
-353,Sérgio Mendes & The Black Eyed Peas
-354,The Osmonds
-355,Leonard Cohen
-356,Kylie Minogue
-357,Ella Fitzgerald and Chick Webb
-358,Ella Fitzgerald
-359,Billy Ray Cyrus
-360,Desi Arnaz
-361,Robert Johnson
-362,Robbie Williams
-363,Cyndi Lauper
-364,Eve
-365,Daniel Bedingfield
-366,El General
-367,Body Rockers
-368,Jordin Sparks & Chris Brown
-369,Manuel Penella
-370,Anastacia
-371,Kool and the Gang
-372,The Go-Go's
-373,Paolo Nutini
-374,Astor Piazolla
-375,Sam & Dave
-376,Russell Watson
-377,Sean Kingston
-378,Marvin Gaye & Tammi Terrell
-379,The Emotions
-380,David Bowie & Mick Jagger
-381,Dusty Springfield
-382,Spandau Ballet
-383,Deniece Williams
-384,Kat DeLuna feat. Elephant Man
-385,The Ides of March
-386,Robin Williams
-387,John Altman
-388,Kim Wilde
-389,Smash Mouth
-390,Otros Aires Electronic Tango Orchestra
-391,Tom Petty
-392,Leo Sayer
-393,Owl City & Carly Rae Jepsen
-394,One Direction
-395,The Trammps
-396,Sean Paul
-397,The Pussycat Dolls
-398,Cupid
-399,Bryan Adams
-400,Sarah McLachlan
-401,The United States Air Force Band and the Rockies
-402,from Hairspray
-403,"Earth, Wind and Fire"
-404,Carlos Di Sarli
-405,Meghan Trainor
-406,from Sweet Charity
-407,LMFAO feat. Lauren Bennett & GoonRock
-408,Iggy Pop
-409,Ashley Tisdale and Lucas Grabeel
-410,Basement Jaxx
-411,Kris Kross
-412,Johnny Cash
-413,Dean Martin
-414,Sammy Davis Jr.
-415,John Williams
-416,Fatboy Slim
-417,Goo Goo Dolls
-418,Engelbert Humperdinck
-419,Boyz II Men
-420,LunchMoney Lewis
-421,The Romantics
-422,Labelle
-423,Sara Bareilles
-424,The Andrews Sisters
-425,Africando All Stars
-426,Perry Como
-427,Benny Moré
-428,Ben E. King
-429,Pitbull
-430,Bailongo
-431,Astrud Gilberto
-432,Angel Melendez
-433,Mark Ronson feat. Bruno Mars
-434,Ray Quinn feat. Ultra Love
-435,Redfoo
-436,Adele
-437,The Isley Brothers
-438,Creedence Clearwater Revival
-439,Los Lonely Boys
-440,Christa Behnke
-441,Xavier Cugat
-442,Unit 4 + 2
-443,The Hit Crew
-444,Billy Paul
-445,Jamiroquai
-446,Robert Randolph and the Family Band
-447,Johnny Pearson
-448,Klaus Hallen
-449,OneRepublic
-450,Olivia Newton-John
-451,Hozier
-452,Pitbull & Ne-Yo
-453,Gretchen Wilson
-454,Neon Trees
-455,Louis Prima
-456,Ram Jam
-457,Glenn Frey
-458,Meco
-459,Enrique Iglesias feat. Ludacris & DJ Frank E
-460,Kevin Rudolf & Lil Wayne
-461,Amos Lee
-462,Amerie
-463,C+C Music Factory
-464,Irene Cara
-465,Timbaland feat. OneRepublic
-466,Spice Girls
-467,Frankie Lymon and the Teenagers
-468,Jerry Lee Lewis
-469,Katy Perry feat. Snoop Dogg
-470,The Spinners
-471,Les Poppys
-472,Tape Five
-473,Richard Cheese
-474,Nancy Sinatra
-475,Gwen Stefani
-476,Shaggy
-477,Billy Fury
-478,"Jessie J, Ariana Grande & Nicki Minaj"
-479,Rizzle Kicks
-480,Stevie Ray Vaughan
-481,Ruth Brown
-482,David Bowie
-483,The Knack
-484,Robin Thicke feat. Kendrick Lamar
-485,Selena Gomez & The Scene
-486,Beyoncé featuring Jay-Z
-487,Kenny Rogers
-488,Georges Bizet
-489,Steppenwolf
-490,Olly Murs
-491,Shiny Toy Guns
-492,Unidad de Musica de la Guardia Real
-493,"Tito Puente, Jr."
-494,Louis Armstrong & Ella Fitzgerald
-495,Gotye feat. Kimbra
-496,Darius Rucker
-497,Ed Sheeran
-498,Keane
-499,from The Phantom of the Opera
-500,Patti Page
-501,Bon Jovi
-502,Snoop Dogg feat. Pharrell
-503,Cupid feat. B.o.B
-504,Black Oak Arkansas
-505,The Jacksons
-506,Robin Thicke feat. T.I. & Pharrell Williams
-507,Manuel Panella
-508,Dave Matthews Band
-509,50 Cent
-510,Icona Pop
-511,Ellie Goulding
-512,Pitbull feat. Kesha
-513,Barrett Strong
-514,Maroon 5 featuring Christina Aguilera
-515,Los Lobos featuring Antonio Banderas
-516,The Eagles
-517,Desperado Los Lobos & A Banderas
-518,George Michael
-519,Johnny Mathis
-520,John Travolta and Olivia Newton-John
-521,Run-D.M.C.
-522,Eliza Doolittle
-523,Little Mix
-524,Buena Vista Social Club
-525,Bananarama
-526,Arthur Murray Orchestra
-527,Daddy Yankee
-528,Passenger
-529,Royal Crown Revue
-530,from 42nd Street
-531,Jessie J
-532,The Police
-533,Paul Anka
-534,James Horner & Simon Rhodes
-535,Wyclef Jean feat. Claudette Ortiz
-536,Carly Rae Jepsen
-537,Wilson Pickett
-538,Lee Brice
-539,Lipps Inc.
-540,John Lennon
-541,Oingo Boingo
-542,Bruno Mars
-543,Martha and the Vandellas
-544,Betty Everett
-545,David Guetta feat. Sam Martin
-546,Santana feat. Pitbull
-547,Rodrigo y Gabriela with John Tempesta
-548,The Dovells
-549,Danny and the Juniors
-550,Bebel Gilberto
-551,Chelo
-552,Tavares
-553,Consuelo Velázquez
-554,Zedd feat. Foxes
-555,The Drifters
-556,The Corrs
-557,Lauren Wood
-558,The Manhattan Transfer
-559,Elvis Crespo
-560,Clean Bandit feat. Jess Glynne
-561,Fulanito
-562,Lara St. John
-563,The Pussycat Dolls feat. A. R. Rahman
-564,Bell Biv DeVoe
-565,T-Bone Burnett
-566,Corrine Bailey Rae
-567,Reel 2 Real
-568,Erasure
-569,Miguel
-570,Jason Aldean
-571,Flo Rida feat. Sia
-572,Marvin Gaye and Kim Weston
-573,from Kinky Boots
-574,Walk the Moon
-575,A Great Big World & Christina Aguilera
-576,Jurassic 5
-577,Wisin & Yandel feat. Jennifer Lopez
-578,Cher Lloyd
-579,Lloyd feat. Lil Wayne
-580,Lady Antebellum
-581,The Wanted
-582,Kiki Dee
-583,Flo Rida
-584,Julie Covington
-585,T. Rex
-586,Tears for Fears
-587,Rolling Stones
-588,Gavin James
-589,Patti LaBelle
-590,Ray Charles & Julia Rinker
-591,Avicii
-592,Estelle feat. Janelle Monáe
-593,Kat DeLuna
-594,Simon and Garfunkel
-595, Frankie Valli & The Four Seasons
-596,Pitbull feat. Chris Brown
-597,Bette Midler
-598,Kid Creole and the Coconuts
-599,from Chitty Chitty Bang Bang
-600,Beyoncé feat. Devin & Solange
-601,The Righteous Brothers
-602,P!nk feat. Nate Ruess
-603,Shania Twain
-604,from The Mask
-605,Toby Keith
-606,Chris Brown
-607,Jimmy Eat World
-608,Louis Jordan
-609,Lenka
-610,The Big Bopper
-611,Oscar d'Leon
-612,Ray Charles & The Blues Brothers
-613,Gene Kelly
-614,Queen and David Bowie
-615,Dinah Shore
-616,Michael Giacchino
-617,Beyoncé & André 3000
-618,Santa Esmeralda
-619,from Singin' in the Rain
-620,Dick Van Dyke
-621,Cliff Edwards
-622,Danny Elfman
-623,Cody Simpson
-624,Sam Palladio & Clare Bowen
-625,Rick James
-626,from Cinderella
-627,Good Charlotte
-628,Electric Guest
-629,Tim Armstrong featuring Skye Sweetnam
-630,from The Addams Family
-631,Leonard Bernstein
-632,Sam Smith
-633,Ariana Grande
-634,Brad Kane & Lea Salonga
-635,Klaus Badelt
-636,John Legend
-637,Christina Perri
-638,Pharrell Williams
-639,The Spencer Davis Group
-640,Elton John & Britney Spears
-641,"Christina Aguilera, Lil' Kim, Mýa & Pink"
-642,Duck Sauce
-643,Hayley Westenra
-644,Neil Diamond
-645,Kelis
-646,Captain & Tennille
-647,Delbert McClinton
-648,Emeli Sandé & The Bryan Ferry Orchestra
-649,Red Hot Chili Peppers
-650,Rose Royce
-651,Pat Carroll
-652,Kristen Bell & Santino Fontana
-653,Sweet
-654,Hunter Hayes
-655,Carrie Underwood
-656,Jana Kramer
-657,Kenny Chesney
-658,Rihanna & Calvin Harris
-659,Carl Carlton
-660,Bad Bunny
-661,Rod Stewart
-662,Rockwell
-663,Ray Parker Jr.
-664,Luther Vandross
-665,Gioachino Rossini
-666,will.i.am
-667,Kool & the Gang
-668,The Wild Party
-669,Timbaland featuring Keri Hilson and D.O.E.
-670,Carmen Miranda
-671,Chubby Checker
-672,Calvin Harris
-673,Katy Perry feat. Juicy J
-674,Black Joe Lewis & the Honeybears
-675,The Swag Geeks feat. Brook Penning
-676,Blake Shelton
-677,Dolly Parton & Kenny Rogers
-678, James Blunt
-679,Johnny O'Keefe
-680,Harry Styles
-681,Rihanna featuring Mikky Ekko
-682,Def Leppard
-683,Gwen Verdon
-684,Tammy Wynette
-685,"Vishal Dadlani, Hamsika Iyer & Sricharan"
-686,Nicole Kidman
-687,Daft Punk feat. Pharrell Williams
-688,Gin Wigmore
-689,Mr Probz
-690,Jason Derulo
-691,Jessie Ware
-692,Pharrell feat. Justin Timberlake
-693,Usher
-694,George Gershwin
-695,Jack Wagner
-696,BTS
-697,Outkast
-698,Lizzo
-699,Timbaland feat. Keri Hilson
-700,Black Eyed Peas
-701,"Daft Punk, Pharrell Williams & Nile Rodgers"
-702,Megan Thee Stallion
-703,Village People
-704,Billy Vera & The Beaters
-705,Sly & The Family Stone
-706,Lee Roy Reams
-707,Jim Croce
-708,Rick Springfield
-709,Dario G
-710,Usher feat. Nicki Minaj
-711,Joey Fatone
-712,Hans Zimmer
-713,Emily Wells
-714,Fun.
-715,Scott Bradlee & Postmodern Jukebox
-716,Alex Clare
-717,Andy Grammer
-718,The Kid Laroi & Justin Bieber
-719,Dua Lipa
-720,Jennifer Lopez & Pitbull
-721,Musical Youth
-722,Cheryl feat. Tinie Tempah
-723,Paco Peña
-724,Toni Basil
-725,Cameo
-726,Julie Andrews & Dick Van Dyke
-727,Jerry Orbach & Angela Lansbury
-728,Ilene Woods
-729,"Jason Weaver, Laura Williams & Rowan Atkinson"
-730,Regina Belle
-731,Florence + the Machine
-732,Joe Esposito
-733,Doja Cat feat. SZA
-734,Fergie & Ludacris
-735,Rodney Atkins
-736,David Guetta featuring Sia
-737,MC Hammer
-738,Rob Base and DJ E-Z Rock
-739,Salt-N-Pepa
-740,Kanye West
-741,José Norman
-742,Cee Lo Green
-743,MGMT
-744,Rod Taylor
-745,Idina Menzel
-746,Samuel E. Wright
-747,The Weeknd
-748,Babyface
-749,Celia Cruz
-750,Mariah Carey & Boyz II Men
-751,Quiet Riot
-752,Silk Sonic
-753,Jet
-754,Kyle Jacobs
-755,Mary Wells
-756,"Enrique Iglesias feat. Gente de Zona, Descemer Bueno & Sean Paul"
-757,Des'ree
-758,Nelly
-759,P!nk
-760,Taylor Dayne
-761,Muse
-762, Jimi Hendrix
-763,Ant Clemons & Justin Timberlake
-764,Gladys Knight & the Pips
-765,Young MC
-766,Arianna feat. Pitbull
-767,Ray Chew
-768,Chromeo
-769,Glee cast
-770,Sheppard
-771,Icona Pop feat. Charli XCX
-772,Nicki Minaj
-773,Les Tambours du Bronx
-774,John Travolta
-775,Alice Cooper
-776,James Arthur
-777,Daddy Yankee & Luis Fonsi
-778,Jimmie Allen
-779,Lady Gaga & Ariana Grande
-780,Billie Eilish
-781,INXS
-782,Sepalot feat. Ladi6
-783,Deee-Lite
-784,Jennifer Lopez feat. Pitbull
-785,Louis Prima & Keely Smith
-786,Jimmy Buffett
-787,Ricky Martin feat. Pitbull
-788,Calvin Harris feat. Ellie Goulding
-789,José Feliciano
-790,Jonas Brothers
-791,Donell Jones
-792,Camila Cabello
-793,Chris Cornell
-794,Garbage
-795,Gladys Knight
-796,Clairy Browne & the Bangin' Rackettes
-797,Nikki Yanofsky
-798,Woodkid
-799,Charlie Daniels Band
-800,Joss Stone
-801,Copacabana
-802,Martin Solveig
-803,Fantasia Barrino
-804,"Fergie, Q-Tip & GoonRock"
-805,Kate Hudson
-806,"Major Lazer feat. Busy Signal, The Flexican & FS Green"
-807,Shakira feat. Rihanna
-808,Awolnation
-809,Fifth Harmony
-810,Joe Arroyo
-811,Ketty Lester
-812,Alexandra Stan
-813,The Andrew Sisters
-814,Hector Lavoe
-815,"Cardi B, Bad Bunny & J Balvin"
-816,Brittany Spears
-817,"Thomas Newman, featuring Tambuco"
-818,Sheena Easton
-819,David Arnold & Nicholas Dodd
-820,The Pierces
-821,Ella Henderson
-822,Kongos
-823,The Foundations
-824,Ramin Djawadi
-825,Vampire Weekend
-826,David Hirschfelder & The Bogo Pogo Orchestra
-827,Ana Tijoux
-828,Wisin feat. Ricky Martin & Jennifer Lopez
-829,Imagine Dragons
-830,Was (Not Was)
-831,La Lupe
-832,Mohombi
-833,Jack White & Alicia Keys
-834,Miranda Lambert & Carrie Underwood
-835,Miss Li
-836,Shawn Mendes & Camila Cabello
-837,Kina Grannis
-838,Ne-Yo
-839,Mariah Carey & Whitney Houston
-840,Pitbull feat. Theron Theron
-841,Aly & AJ
-842,Andra Day
-843,Panjabi MC
-844,"Lillias White, LaChanze, Roz Ryan, Cheryl Freeman & Vanéese Y. Thomas"
-845,Quindon Tarver
-846,Janelle Monáe
-847,Lorde
-848,Emeli Sandé
-849,Demi Lovato
-850,Keala Settle
-851,Jennifer Lopez feat. DJ Khaled & Cardi B
-852,Louisa feat. 2 Chainz
-853,Waylon Jennings
-854,Smokey Robinson
-855,"Hugh Jackman, BriaAndChrissy, Keala Settle, Zac Efron & Zendaya"
-856,Benjamin Bratt
-857,Leslie Odom Jr.
-858,Joshua Bassett
-859,Don Omar feat. Lucenzo
-860,BC Jean
-861,Canned Heat
-862,Christina Grimmie
-863,Marie Miller
-864,Prince & The Revolution
-865,Bobby Brown
-866,Fleetwood Mac
-867,Saint Jhn
-868,Leo Soul
-869,Smokey Robinson & the Miracles
-870,Jenifer Lewis
-871,Dick Van Dyke & Julie Andrews
-872,Electric Light Orchestra
-873,Santana feat. The Product G&B
-874,NONONO
-875,Avicii feat. Audra Mae
-876,Daddy Yankee feat. Snow
-877,Rihanna feat. Calvin Harris
-878,Lee Ann Womack feat. Sons of the Desert
-879,Anika Noni Rose
-880,Bill Medley & Jennifer Warnes
-881,Donny Osmond
-882,Edoardo Bennato
-883,"Bette Midler, Sarah Jessica Parker & Kathy Najimy"
-884,Pitbull feat. Papayo
-885,Cher
-886,Rumer Willis
-887,Cash Cash feat. Julia Michaels
-888,Whitney Myer
-889,RuPaul
-890,John Fogerty
-891,The Notorious B.I.G.
-892,Wilson Phillips
-893,Selena
-894,Lady Gaga & Bradley Cooper
-895,Armin van Buuren feat. Cimo Fränkel
-896,Gamu
-897,Katrina and the Waves
-898,Nikki & Rich
-899,"Jason Weaver, Rowan Atkinson & Laura Williams"
-900,Auliʻi Cravalho
-901, MKTO
-902, Goodwill & Hook n Sling
-903,Debbie Gibson
-904,Fleur East
-905,Madness
-906,Whitney Houston & Mariah Carey
-907,Kenny Rogers feat. Dolly Parton
-908,Meryl Streep
-909,Jon Batiste
-910,Carmen Twillie & Lebo M.
-911,Carlos Vives
-912,Christopher Walken
-913,Tevin Campbell
-914,Jessie James Decker
-915,JP Cooper
-916,DJ Snake & Lil Jon
-917,Jason Derulo feat. 2 Chainz
-918,Ludacris feat. Pharrell Williams
-919,Shawn Mendes
-920,Kesha feat. The Dap-Kings Horns
-921,Daphne Willis
-922,Eddie Palmieri
-923,Christina Aguilera & Blake Shelton
-924,Miley Cyrus
-925,Joni Mitchell
-926,"Jagged Edge, featuring RUN"
-927,Lewis Capaldi
-928,Bobby McFerrin
-929,X Ambassadors & Jamie N Commons feat. Jay-Z
-930,Erin Bowman
-931,Kurtis Blow
-932,The Disco Fries feat. Hope Murphy
-933,The O'Neill Brothers
-934,Aloe Blacc
-935,Major Lazer feat. The Partysquad
-936,Bajofondo
-937,The Baseballs
-938,Selena Gomez
-939,Newsies cast
-940,"DJ Khaled feat. T-Pain, Ludacris, Rick Ross & Snoop Dogg"
-941,Matt Beilis
-942,SBTRKT feat. Ezra Koenig
-943,Sarah Bockel
-944,Johann Pachelbel
-945,Jesse Corti & Richard White
-946,Lana Del Rey
-947,"Dove Cameron, Sofia Carson,"
-948,Lauryn Hill
-949,Jim Brickman & Wayne Brady
-950,Bonde do Rolê feat. Rizzle Kicks
-951,B.o.B feat. Rivers Cuomo
-952,Christian TV
-953,Frankie Valli
-954,Gregor Salto
-955,Preservation Hall Jazz Band
-956,Haddaway
-957,Luke Bryan
-958,Madcon feat. Ray Dalton
-959,Amy Stroup
-960,Hardwell
-961,Captain & Tennille[26]
-962,Ricki-Lee Coulter
-963,Wolfgang Mozart
-964,Franz Schubert (performed by Jackie Evancho)
-965,Giuseppe Verdi (performed by Vittorio Grigolo)
-966,Bruce Adler
-967,Melora Hardin
-968,Chiwetel Ejiofor
-969,"Justin Timberlake, featuring Timbaland"
-970,Mazzy Star
-971,Ariana Grande feat. Iggy Azalea
-972,Wisin
-973,John Newman
-974,Mambo Compañeros
-975,DJ Snake feat. Justin Bieber
-976,Tim McGraw & Faith Hill
-977,Tyler Ward
-978,Bootstraps
-979,Nikki Williams
-980,Zayde Wølf
-981,Flo Rida feat. Fitz
-982,Lil Nas X feat. Billy Ray Cyrus
-983,Lily James
-984,Luke Combs
-985,Sergei Prokofiev
-986,Mary-Jess Leaverland
-987,Klaus Badelt & Hans Zimmer
-988,X Ambassadors & Jamie N Commons
-989,Lifehouse
-990,Hall & Oates
-991,E.S. Posthumus
-992,Alacran
-993,A.P.P.A.R.T.
-994,Soft Cell
-995,Usher feat. Lil' Jon & Ludacris
-996,Avril Lavigne feat. Chad Kroeger
-997,The Coasters
-998,Ben Rector
-999,Steve Goodman
-1000,Erika Jayne
-1001,Tami Tappan Damiano
-1002,ZAYN
-1003,Mary J. Blige
-1004,Alessia Cara
-1005,Vanilla Ice
-1006,"JD McCrary,"
-1007,Julie Andrews
-1008,Randy Newman
-1009,Ariana Grande & John Legend
-1010,Al Green
-1011,Santana feat. Rob Thomas
-1012,Jennifer Lopez feat. Iggy Azalea
-1013,Annie Lennox
-1014,Florence and the Machine
-1015,"Cobra Starship, featuring Leighton Meester"
-1016,Green Day
-1017,Bugsy Malone
-1018,Calvin Harris feat. John Newman
-1019,Bonde do Rolê
-1020,"Mike Post, Pete Carpenter"
-1021,Tritonal & Cash Cash feat. JHart
-1022,Jess Glynne
-1023,Judah Kelly
-1024,Little Texas
-1025,Betty Hutton
-1026,Cast of High School Musical
-1027,Zayn & Zhavia Ward
-1028,Backstreet Boys
-1029,Michael Sembello
-1030,"Stockard Channing,"
-1031,John Travolta & Jeff Conaway
-1032,Frankie Avalon
-1033,Rob Base & DJ E-Z Rock
-1034,Noisettes
-1035,Niykee Heaton
-1036,Charo
-1037,Luis Fonsi feat. Daddy Yankee
-1038,Henry Krieger
-1039,DNCE
-1040,Bonnie McKee
-1041,Peppermint Trolley Company
-1042,New Kids on the Block
-1043,René Dupéré
-1044,Sha Na Na
-1045,Stockard Channing
-1046,Metro Station
-1047,Diplo feat. Faustix & Imanos and Kai
-1048,Koji Kondo
-1049,LMFAO
-1050,Jennifer Nettles
-1051,Jessie J feat. 2 Chainz
-1052,Sigala feat. John Newman & Nile Rodgers
-1053,Charlie Puth
-1054,Sky Ferreira
-1055,Hailee Steinfeld
-1056, The Pussycat Dolls
-1057,Empire cast feat. Estelle & Jussie Smollett
-1058,Thirty Seconds to Mars
-1059,Bernadette Peters & Tom Wopat
-1060,"Pitbull feat. Robin Thicke, Joe Perry & Travis Barker"
-1061,Dillon Francis & Skrillex
-1062,Gavin DeGraw
-1063,Vic Mizzy
-1064,Jesse Frederick
-1065,Tiffany
-1066,David Gray
-1067,RAIGN
-1068,Macklemore & Ryan Lewis
-1069,Shakira feat. Wyclef Jean
-1070,Madeon
-1071,Ludovic Bource
-1072,Sleeping at Last
-1073,The Sugarhill Gang
-1074,Kimberly Cole
-1075,Lion Babe
-1076,J Balvin & Willy William
-1077,MAX feat. gnash
-1078,Camila Cabello feat. Young Thug
-1079,DJ Kass
-1080,Flo Rida feat. Sage the Gemini & Lookas
-1081,George Noriega & Joel Someillan
-1082,Howard Greenfield & Jack Keller
-1083,Mark Snow
-1084,Major Lazer feat. Nyla & Fuse ODG
-1085,Lauren Alaina
-1086,Cast of The Rocky Horror Picture Show
-1087,DeBarge
-1088,Lukas Graham
-1089,David Guetta feat. Nicki Minaj
-1090,District 78 feat. Patrice Covington
-1091,Kim Petras
-1092,Daniel Jang
-1093,Michael Buble
-1094,Labrinth feat. Emeli Sandé
-1095,Juanes
-1096,Justin Bieber feat. Nicki Minaj
-1097,Kiesza
-1098,The Dixie Cups
-1099,Jax Jones feat. Demi Lovato & Stefflon Don
-1100,Ricky Campanelli
-1101,Chaka Khan
-1102,OMI
-1103,Charlie Puth feat. Meghan Trainor
-1104,Kygo feat. Parson James
-1105,Miriam Makeba
-1106,Mark Mueller
-1107,Bear McCreary
-1108,Bob James
-1109,Ava Max
-1110,Calum Scott & Leona Lewis
-1111,Jennifer Lopez feat. Gente de Zona
-1112,Malachi Barton
-1113,Måneskin
-1114,Luniz feat. Michael Marshall
-1115,50 Cent feat. Olivia
-1116,Alan Menken & Glenn Slater
-1117,Nick Cave and the Bad Seeds
-1118,Carol Welsman
-1119,Katy Tiz
-1120,"David Guetta feat. Nicki Minaj, Bebe Rexha & Afrojack"
-1121,Justin Bieber feat. J. Balvin
-1122,Phillip Phillips
-1123,2WEI
-1124,Bobby Pickett
-1125,Marky Mark and the Funky Bunch
-1126,Doja Cat feat. Nicki Minaj
-1127,Tinashe feat. Schoolboy Q
-1128,Clint Mansell & Kronos Quartet
-1129,CLiQ feat. Alika
-1130,Sergio Mendes
-1131,Ciara
-1132,Héctor Lavoe
-1133,Jason Derulo feat. Nicki Minaj & Ty Dolla Sign
-1134,DJ Jazzy Jeff & The Fresh Prince
-1135,Chumbawamba
-1136,Afrojack feat. Wrabel
-1137,Flo Rida feat. Robin Thicke & Verdine White
-1138,Kermit the Frog
-1139,"Al Burton, Gloria Loring & Alan Thicke"
-1140,Outasight
-1141,Chris Isaak
-1142,Styx
-1143,Tim McGraw
-1144,Grace Potter & The Nocturnals
-1145,Pat Benatar
-1146,Nathan Lanier
-1147,Barns Courtney
-1148,Jean Knight
-1149,Osvaldo Pugliese
-1150,Janelle Monáe feat. Big Boi
-1151,NSYNC
-1152,The Four Tops
-1153,Jorge Quintero
-1154,Pitbull feat. Lil Jon
-1155,BJ the Chicago Kid
-1156,Crystal Lake feat. Kifi
-1157,Montell Jordan
-1158,Ally Brooke feat. Matoma
-1159,Justin Bieber
-1160,Dimie Cat
-1161,Right Said Fred
-1162,Sia
-1163,Benny Goodman
-1164,Youth Group
-1165,Florida Georgia Line feat. Luke Bryan
-1166,Owl City feat. Aloe Blacc
-1167,Rogue Wave
-1168,Taio Cruz
-1169,Raphaël Beau
-1170,Elle King
-1171,Linda Ronstadt
-1172,Vincint
-1173,Helmut Vonlichten
-1174,Intermezzo Orchestra
-1175,Judy Kuhn
-1176,Cowboy Troy
-1177,Chris Tomlin
-1178,Rachel Platten
-1179,Glen Hansard & Markéta Irglová
-1180,Mindy Gledhill
-1181,Rochelle Diamante
-1182,Flo Rida feat. David Guetta
-1183,Jodi Benson
-1184,Maroon 5 feat. Christina Aguilera
-1185,Benoît Jutras
-1186,Simon Carpentier
-1187,MILCK
-1188,District 78
-1189,Alan Menken & David Zippel
-1190,Mandy Moore
-1191,Lea Salonga
-1192,Dickie Jones
-1193,Kristen Bell & Idina Menzel
-1194,Owl City
-1195,Donny Osmond (performed live)
-1196,Curtis Mayfield
-1197,Us the Duo
-1198,The Fray
-1199,Nick Lachey
-1200,Sister Sledge
-1201,Huey Lewis & the News
-1202,David Guetta feat. Kelly Rowland
-1203,Paige O'Hara
-1204,Martha & the Vandellas
-1205,ZZ Ward
-1206,Amy Adams
-1207,Auliʻi Cravalho (performed live)
-1208,Wilfred Jackson & Bert Lewis
-1209,AC/DC
-1210,Mike Posner
-1211,Arthur Conley
-1212,James Bay
-1213,from Gentlemen Prefer Blondes
-1214,Guy Dubuc & Marc Lessard
-1215,Dan + Shay
-1216,Ariana Grande & Justin Bieber
-1217,Sérgio Mendes feat. Carlinhos Brown
-1218,The Tony Rich Project
-1219,Phil Harris & Bruce Reitherman
-1220,Big Mama Thornton
-1221,Pyotr Ilyich Tchaikovsky
-1222,Belinda Carlisle
-1223,John Barry
-1224,Panic! at the Disco
-1225,Judy Garland
-1226,Helen Shapiro
-1227,Joan Jett & the Blackhearts
-1228,Alesha Dixon
-1229,Martina McBride
-1230,Leon Russell
-1231,TLC
-1232,Missy Elliott
-1233,Kaleo
-1234,SYML
-1235,"Jason Weaver,"
-1236,Jonny Lang
-1237,OneRepublic feat. Sara Bareilles
-1238,Thin Lizzy
-1239,The Human Beinz
-1240,Beans & Fatback
-1241,Ruelle
-1242,Calvin Harris & Alesso feat. Hurts
-1243,3OH!3 feat. Ke$ha
-1244,Jack Garratt
-1245,Yves V feat. Mike James
-1246,Florence + The Machine
-1247,"José Feliciano,"
-1248,Atwater Men's Club
-1249,Jordan Fisher feat. Lin-Manuel Miranda
-1250,Indila
-1251,Skylar Grey
-1252,Indeep
-1253,Sonny Bono
-1254,Tom Jones feat. Stereophonics
-1255,Daughtry
-1256,John Denver
-1257,Aaron Copland
-1258,The Score
-1259,Will Smith feat. Dru Hill & Kool Moe Dee
-1260,Portugal. The Man
-1261,Cynthia Fee
-1262,The Summer Set
-1263,Musiq Soulchild
-1264,Enrique Iglesias feat. Ludacris
-1265,Petty Booka
-1266,Carly Pearce
-1267,Dierks Bentley feat. Brothers Osborne
-1268,LANCO
-1269,Bob Wilson & His Varsity Rhythm Boys
-1270,Sheila E.
-1271,Smash cast feat. Megan Hilty
-1272,Sevdaliza
-1273,The Eligibles
-1274,RJD2
-1275,Dave Porter
-1276,A. R. Rahman
-1277,Five Stairsteps
-1278,"Adam Clayton & Larry Mullen, Jr."
-1279,Girls Aloud
-1280,Sérgio Mendes feat. The Black Eyed Peas
-1281,Eagles
-1282, Tupac feat. Dr. Dre & Roger Troutman
-1283,Amy Winehouse feat. Mark Ronson
-1284,Chris Stapleton
-1285,Chris Janson
-1286,Don Omar & Lucenzo
-1287,Carl Orff
-1288,Common feat. Pharrell Williams
-1289,Andrea Bocelli feat. Jennifer Lopez
-1290,Lord Huron
-1291,Larry Elgart
-1292,Jace Everett
-1293,Ja'net Dubois
-1294,Israel Kamakawiwo'ole
-1295,Weezer
-1296,The Chiffons
-1297,Sam Smith & Normani
-1298,Forever Tango
-1299,Paula Cole
-1300,Martin Garrix
-1301,Chuck Lorre & Dennis C. Brown
-1302,The Shirelles
-1303,Katherine Jenkins
-1304,U2
-1305,Bernard Herrmann
-1306,Bill Conti
-1307,Postmodern Jukebox feat. Addie Hamilton
-1308,Bishop Briggs
-1309,Merry Clayton
-1310,Lindsey Stirling
-1311,Chase Holfelder
-1312,Tamar Braxton
-1313,Nino Rota
-1314,Vince Hill
-1315,Daniel Powter
-1316,Ella Fitzgerald & Louis Armstrong
-1317,Gloria Estefan & Miami Sound Machine
-1318,Junior Senior
-1319,Oh the Larceny
-1320,from Forever Tango
-1321,Andra Day & Common
-1322,Martynas
-1323,Tape Five feat. Henrik Wager
-1324,Edvard Grieg
-1325,Katherine Jenkins & Beverley Staunton
-1326,Alicia Keys feat. Beyoncé
-1327,Landon Pigg
-1328,Glenn Miller
-1329,Noah Cyrus
-1330,Zac Efron & Zendaya
-1331,The Weeknd & Kendrick Lamar
-1332,Austin French
-1333,David Guetta feat. Sia
-1334,Lenii
-1335,Bastille feat. Gabrielle Aplin
-1336,Anthony Hamilton & Elayna Boynton
-1337,Earl St. Clair
-1338,Niall Horan
-1339,Years & Years
-1340,Aaron Krause feat. Liza Anne
-1341,Lee Greenwood
-1342,Martynas Levickis
-1343,Phillip Bailey & Phil Collins
-1344,Jane Monheit
-1345,Emily Browning
-1346,The Black Keys
-1347,Alan Menken
-1348,Ella Mae Bowen & Bonnie Tyler
-1349,Jonas Brothers & Karol G
-1350,The Chainsmokers feat. Daya
-1351,Marian Hill
-1352,Meghan Trainor feat. John Legend
-1353,James Cagney
-1354,The Four Seasons
-1355,Grace feat. G-Eazy
-1356,JP Saxe & Julia Michaels
-1357,Björk
-1358,Bill Withers
-1359,Missy Elliott feat. Ciara & Fat Man Scoop
-1360,Seth MacFarlane
-1361,Bastille
-1362,Martin Garrix feat. Usher
-1363,Monty Python
-1364,Jim Jacobs & Warren Casey
-1365,Frank Loesser
-1366,Andrew Lloyd Webber
-1367,The Chicks
-1368,The Proclaimers
-1369,"Debbie Reynolds, Gene Kelly & Donald O'Connor"
-1370,The Script feat. will.i.am
-1371,Jonathan Larson
-1372,Steve Miller Band
-1373,The Rembrandts
-1374,Stevie Wonder feat. Ariana Grande
-1375,Usher feat. Lil Jon & Ludacris
-1376,The Cinematic Orchestra feat. Patrick Watson
-1377,Ginuwine
-1378,Deadmau5 feat. Rob Swire
-1379,David Garrett & Royal Philharmonic Orchestra
-1380,Avicii feat. Sterling Fox & Audra Mae
-1381,Hermes House Band
-1382,X Ambassadors
-1383,Natasha Bedingfield
-1384,Cy Coleman
-1385,NEEDTOBREATHE feat. Gavin DeGraw
-1386,Alexander Jean
-1387,Evanescence feat. Paul McCoy
-1388,Pedro Gomez
-1389,David Guetta feat. Skylar Grey
-1390,Warren Zevon
-1391,Larry Carlton
-1392,The Monkees
-1393,Yin Yang Twins feat. Pitbull
-1394,Rayelle
-1395,The Doors
-1396,Marilyn Manson
-1397,Nathaniel Rateliff & the Night Sweats
-1398,Disturbed
-1399,Pitbull feat. John Ryan
-1400,Orianthi
-1401,The Weeknd feat. Ed Sheeran
-1402,Bakermat feat. Alex Clare
-1403,Gerard McMann
-1404,Scorpions
-1405,Stealers Wheel
-1406,Wayne Beckford
-1407,Taco feat. tomX
-1408,Marc Anthony
-1409,Teddybears feat. Mad Cobra
-1410,Thurston Harris and the Sharps
-1411,The Ames Brothers
-1412,Paloma Faith
-1413,Tori Kelly
-1414,Escala
-1415,Ella Mae Bowen
-1416,Haley Reinhart
-1417,Cream
-1418,Burt Bacharach
-1419,Felix Jaehn feat. Hight & Alex Aiono
-1420,Avicii feat. Sandro Cavazza
-1421,MIKA
-1422,Blue Foundation
-1423,The Cat Empire
-1424,Pablo Cruise
-1425,The Marvelettes
-1426,Zedd feat. Hayley Williams
-1427,DOROTHY
-1428,"Alex Newell, Jess Glynne & DJ Cassidy with Nile Rodgers"
-1429,The Piano Guys
-1430,Nathan Sykes feat. Ariana Grande
-1431,Prince Royce feat. Jennifer Lopez & Pitbull
-1432,Anna Nalick
-1433,Myon
-1434,Cab Calloway
-1435,Foreigner
-1436,James Vincent McMorrow
-1437,Proyecto Uno
-1438,"Earth, Wind, and Fire"
-1439,Mariano Mores
-1440,Duffy
-1441,Carole King
-1442,Parov Stelar
-1443,Alesso feat. Ryan Tedder
-1444,Empire cast feat. Jussie Smollett & Pitbull
-1445,from The Passion of the Christ
-1446,Tommy Sparks
-1447,69 Boyz
-1448,from Dreamgirls
-1449,Missy Elliott feat. Pharrell Williams
-1450,Timeflies
+"primary_song_artist_id","primary_song_artist"
+1,"Eurythmics"
+2,"The Pussycat Dolls feat. Timbaland"
+3,"Celine Dion"
+4,"Kris Allen"
+5,"Roberta Flack"
+6,"Edwyn Collins"
+7,"Adam Lambert"
+8,"Alicia Keys"
+9,"Bonnie Raitt"
+10,"Train"
+11,"Kate Bush"
+12,"Astor Piazzolla"
+13,"B.o.B feat. Bruno Mars"
+14,"Tanghetto"
+15,"The Beatles"
+16,"Gerardo Matos Rodríguez"
+17,"Rihanna feat. Jay-Z"
+18,"Jefferson Airplane"
+19,"Santana"
+20,"Aretha Franklin"
+21,"Donna Summer"
+22,"Curtis Stigers"
+23,"Beyoncé feat. Jay-Z"
+24,"Ricky Martin"
+25,"Louis Armstrong"
+26,"The Jackson 5"
+27,"Roxette"
+28,"Lionel Richie"
+29,"Whitney Houston"
+30,"Earth, Wind & Fire"
+31,"The Blackout All-Stars"
+32,"Jackie DeShannon"
+33,"Elton John"
+34,"Norah Jones"
+35,"Aerosmith"
+36,"The Pointer Sisters"
+37,"Destiny's Child"
+38,"Fred Astaire"
+39,"John Travolta & Olivia Newton-John"
+40,"Diana Ross & Lionel Richie"
+41,"Irving Berlin"
+42,"Wham!"
+43,"Sweet Charity"
+44,"Nelly Furtado"
+45,"Cherry Poppin' Daddies"
+46,"Enrique Iglesias"
+47,"Duke Ellington"
+48,"Jackie Wilson"
+49,"Berlin"
+50,"The Contours"
+51,"Britney Spears"
+52,"Kenny Loggins"
+53,"Debelah Morgan"
+54,"Victor Silvester"
+55,"Queen"
+56,"Danny Malando"
+57,"The Champs"
+58,"Elvis Presley"
+59,"from Chicago"
+60,"The Tango Project"
+61,"Quincy Jones"
+62,"Grover Washington, Jr. & Bill Withers"
+63,"Nat King Cole"
+64,"Andy Fortuna"
+65,"Mexicana Aleque la-Band"
+66,"Gipsy Kings"
+67,"Shirley Bassey"
+68,"Mama Cass"
+69,"The Animals"
+70,"Michael Jackson"
+71,"Survivor"
+72,"Julie London"
+73,"Europe"
+74,"Jennifer Lopez"
+75,"All Saints"
+76,"Miami Sound Machine"
+77,"Chic"
+78,"Marilyn Monroe"
+79,"Pink"
+80,"Anita Baker"
+81,"Barbra Streisand"
+82,"Stevie Wonder"
+83,"Christina Aguilera"
+84,"Erich Kunzel"
+85,"Gloria Gaynor"
+86,"The Black Eyed Peas"
+87,"Doris Day"
+88,"Dolly Parton"
+89,"Phil Collins"
+90,"Kelly Clarkson"
+91,"Blondie"
+92,"Toni Braxton"
+93,"Peggy Lee"
+94,"Madonna"
+95,"Harry Connick Jr."
+96,"Bonnie Tyler"
+97,"Kool & The Gang"
+98,"Bee Gees"
+99,"Big & Rich"
+100,"The Jimmy Castor Bunch"
+101,"Nouvelle Vague"
+102,"Ke$ha"
+103,"Seal"
+104,"Fontella Bass"
+105,"Edwin McCain"
+106,"Sam Cooke"
+107,"Ray LaMontagne"
+108,"Duran Duran"
+109,"Billy Joel"
+110,"ZZ Top"
+111,"Ray Charles"
+112,"Frank Sinatra"
+113,"Avril Lavigne"
+114,"Jennifer Hudson"
+115,"Huey Lewis and the News"
+116,"Rihanna"
+117,"Taylor Swift"
+118,"Five for Fighting"
+119,"The Bangles"
+120,"Billy Preston feat. Syreeta Wright"
+121,"Los Lobos feat. Antonio Banderas"
+122,"Dee C. Lee"
+123,"Madcon"
+124,"Lady Gaga"
+125,"Cole Porter feat.Stacey Kent"
+126,"Carl Douglas"
+127,"Mika"
+128,"Kander and Ebb"
+129,"No Doubt"
+130,"James Brown"
+131,"The Troggs"
+132,"Ritchie Valens"
+133,"Phil Harris"
+134,"Chuck Berry"
+135,"Bob Seger"
+136,"Tito Puente"
+137,"Simple Minds"
+138,"Roy Orbison"
+139,"David Cook"
+140,"Mariah Carey"
+141,"Lou Bega"
+142,"The Revels"
+143,"Little Boots"
+144,"Campo"
+145,"Robin Thicke"
+146,"Janet Jackson"
+147,"Depeche Mode"
+148,"Edwin Starr"
+149,"101 Strings Orchestra"
+150,"Lillix"
+151,"Robert Palmer"
+152,"Barry Manilow"
+153,"The White Stripes"
+154,"Little Richard"
+155,"Buddy Greco"
+156,"Lady Gaga featuring Colby O'Donis"
+157,"The Clash"
+158,"Dana Glover"
+159,"Bachman-Turner Overdrive"
+160,"Coldplay"
+161,"Debby Boone"
+162,"Billy & the Beaters"
+163,"José Feliciano, Ewan McGregor & Jacek Koman"
+164,"The Primitives"
+165,"Jim Henson & Sam Pottle"
+166,"Poison"
+167,"Andy Williams"
+168,"Harry Connick, Jr."
+169,"Cole Porter"
+170,"Jazmine Sullivan"
+171,"Beyoncé"
+172,"The Veronicas"
+173,"from The King and I"
+174,"Big Bad Voodoo Daddy"
+175,"Angel Melendez and the 911 Orchestra"
+176,"from Grease"
+177,"Gloria Estefan"
+178,"Rascal Flatts"
+179,"Otis Redding"
+180,"Sonny & Cher"
+181,"Snap!"
+182,"Gotan Project"
+183,"Touch and Go"
+184,"Johnny Rivers"
+185,"Johnny Pacheco"
+186,"Buddy Holly"
+187,"Michael Franti & Spearhead"
+188,"The Brian Setzer Orchestra"
+189,"Nelly & Christina Aguilera"
+190,"John Waite"
+191,"Journey"
+192,"La Roux"
+193,"King Africa"
+194,"Shakira"
+195,"Kevin Lyttle"
+196,"Teddybears"
+197,"3 Doors Down"
+198,"Stray Cats"
+199,"Carlos Santana feat. Rob Thomas"
+200,"Fred Wesley & The J.B.'s"
+201,"The Chi-Lites"
+202,"Michael Bublé"
+203,"Bo Diddley"
+204,"Josh Groban"
+205,"John Paul Young"
+206,"Lionel Richie & Diana Ross"
+207,"The Black Crowes"
+208,"The Beach Boys"
+209,"The Rolling Stones"
+210,"Wild Cherry"
+211,"Prince"
+212,"Simply Red"
+213,"Sérgio Mendes"
+214,"Filter"
+215,"Henry Mancini"
+216,"Marvin Gaye"
+217,"Natalie Cole"
+218,"Evanescence"
+219,"Tina Turner"
+220,"War"
+221,"Brooks and Dunn"
+222,"Sugarland"
+223,"Akon"
+224,"Jason Mraz"
+225,"The Temptations"
+226,"The Cure"
+227,"Quantic & Nikodemus"
+228,"David Sanborn"
+229,"Donovan"
+230,"Bob Wilson & his Varsity Rhythm Boys"
+231,"Leona Lewis"
+232,"LeAnn Rimes"
+233,"Los Fabulosos Cadillacs"
+234,"Angel & the Mambokats"
+235,"Ryan Shaw"
+236,"Heart"
+237,"Bobby Darin"
+238,"Liza Minnelli"
+239,"Kaoma"
+240,"Squirrel Nut Zippers"
+241,"Harry Belafonte"
+242,"Alberto Plaza"
+243,"Pussycat Dolls"
+244,"The Supremes"
+245,"Della Reese"
+246,"Chris De Burgh"
+247,"Colbie Caillat"
+248,"Flo Rida feat. T-Pain"
+249,"Nina Simone"
+250,"Randy Crawford"
+251,"Lynyrd Skynyrd"
+252,"The Guess Who"
+253,"Billy Idol"
+254,"Eartha Kitt"
+255,"Van Morrison"
+256,"Letters to Cleo"
+257,"Sonora Carrulseles"
+258,"The Arthur Murray Orchestra"
+259,"Ike & Tina Turner"
+260,"Semyon Bychkov & Orchestre de Paris"
+261,"Jem"
+262,"Rodrigo y Gabriela"
+263,"Ella Fitzgerald"
+264,"Billy Ray Cyrus"
+265,"OutKast"
+266,"Steve Lawrence"
+267,"Roger Miller"
+268,"Sir Mix-a-Lot"
+269,"Letters To Cleo"
+270,"En Vogue"
+271,"Atomic Fireballs"
+272,"Orquesta Color Tango de Roberto Alvarez"
+273,"Otros Aires"
+274,"Lalo Schifrin & Orchestra Ensemble"
+275,"Ozzy Osbourne"
+276,"Body Rockers"
+277,"Conjunto Tipico Del Tango"
+278,"Brian Setzer"
+279,"Ástor Piazzolla"
+280,"Barry White"
+281,"A-ha"
+282,"Karl Jenkins"
+283,"Lou Rawls"
+284,"Katy Perry"
+285,"Connie Francis"
+286,"Jessica Simpson"
+287,"Perez Prado"
+288,"Sarah Vaughan"
+289,"Eddie Cochran"
+290,"David Bowie & Mick Jagger"
+291,"Dusty Springfield"
+292,"Bond"
+293,"Deniece Williams"
+294,"Nelly feat. City Spud"
+295,"James Morrison"
+296,"Franz Ferdinand"
+297,"Maurice Ravel"
+298,"The Blues Brothers"
+299,"Rosemary Clooney"
+300,"Brian Setzer Orchestra"
+301,"The Commodores"
+302,"Spandau Ballet"
+303,"Smash Mouth"
+304,"John Powell"
+305,"Nena"
+306,"KT Tunstall"
+307,"John Mayer"
+308,"Diana Ross"
+309,"No Doubt feat. Bounty Killer"
+310,"Amy Winehouse"
+311,"The Newbeats"
+312,"The Tractors"
+313,"Indigo Swing"
+314,"The Trammps"
+315,"Etta James"
+316,"The Pussycat Dolls"
+317,"Sérgio Mendes & The Black Eyed Peas"
+318,"Desi Arnaz"
+319,"Robert Johnson"
+320,"Marc Broussard"
+321,"Bill Haley & His Comets"
+322,"Tom Jones"
+323,"Sean Paul"
+324,"Agustín Lara"
+325,"Vanessa Carlton"
+326,"The Pretenders"
+327,"Johnny Cash"
+328,"Ludwig van Beethoven"
+329,"Alfred Hause's Tango Orchestra"
+330,"Owl City & Carly Rae Jepsen"
+331,"One Direction"
+332,"Iggy Pop"
+333,"Ashley Tisdale and Lucas Grabeel"
+334,"Basement Jaxx"
+335,"Screamin' Jay Hawkins"
+336,"Charlotte Church"
+337,"Rufus Wainwright"
+338,"Dean Martin"
+339,"Sammy Davis Jr."
+340,"Benny Moré"
+341,"Paolo Nutini"
+342,"Astor Piazolla"
+343,"KC and the Sunshine Band"
+344,"Adam Ant"
+345,"Alma Cogan"
+346,"from Sweet Charity"
+347,"LMFAO feat. Lauren Bennett & GoonRock"
+348,"Kris Kross"
+349,"The Andrews Sisters"
+350,"Africando All Stars"
+351,"Sam & Dave"
+352,"John Altman"
+353,"The Dandy Warhols"
+354,"Thalía"
+355,"Marc Shaiman"
+356,"Lalo Schifrin"
+357,"New Order"
+358,"The Kinks"
+359,"Sara Bareilles"
+360,"Adele"
+361,"Perry Como"
+362,"Travis Tritt"
+363,"Creedence Clearwater Revival"
+364,"Kim Wilde"
+365,"Robbie Williams"
+366,"Peter Allen"
+367,"Electric Club Tango"
+368,"Club des Belugas"
+369,"James Horner"
+370,"Andrews Sisters"
+371,"Will Smith"
+372,"Dinah Washington"
+373,"The Isley Brothers"
+374,"Flo Rida feat. Sage the Gemini & Lookas"
+375,"Meghan Trainor"
+376,"Meco"
+377,"Billy Fury"
+378,"Dead or Alive"
+379,"The United States Air Force Band and the Rockies"
+380,"John Williams"
+381,"Kreesha Turner"
+382,"Canadian Brass"
+383,"Twisted Sister"
+384,"The Young Rascals"
+385,"Diana Krall"
+386,"Gretchen Wilson"
+387,"Neon Trees"
+388,"Louis Prima"
+389,"Ram Jam"
+390,"Glenn Frey"
+391,"Secondhand Serenade"
+392,"Fall Out Boy"
+393,"Maroon 5"
+394,"Chaka Khan"
+395,"OMI"
+396,"LunchMoney Lewis"
+397,"The Romantics"
+398,"Labelle"
+399,"Georges Bizet"
+400,"Fatboy Slim"
+401,"Goo Goo Dolls"
+402,"Astrud Gilberto"
+403," Lipps Inc."
+404,"Ella Fitzgerald and Chick Webb"
+405,"Les Poppys"
+406,"Tape Five"
+407,"Nancy Sinatra"
+408,"Gwen Stefani"
+409,"Shaggy"
+410,"Angela Via feat. Joe Budden"
+411,"Deana Carter"
+412,"Charlie Puth feat. Meghan Trainor"
+413,"Carol Welsman"
+414,"Katy Tiz"
+415,"Mark Ronson feat. Bruno Mars"
+416,"Ray Quinn feat. Ultra Love"
+417,"Bon Jovi"
+418,"The Hit Crew"
+419,"Billy Paul"
+420,"Jamiroquai"
+421,"Eve"
+422,"Daniel Bedingfield"
+423,"El General"
+424,"Richard Cheese"
+425,"from Hairspray"
+426,"Selena Gomez & The Scene"
+427,"Kenny Rogers"
+428,"David Guetta feat. Nicki Minaj, Bebe Rexha & Afrojack"
+429,"Afrojack feat. Wrabel"
+430,"Redfoo"
+431,"OneRepublic"
+432,"Olivia Newton-John"
+433,"Hozier"
+434,"Johnny Mathis"
+435,"Timbaland feat. OneRepublic"
+436,"Spice Girls"
+437,"Marvin Gaye & Tammi Terrell"
+438,"Jason Mraz & Colbie Caillat"
+439,"Spin Doctors"
+440,"Mark Ronson feat. Amy Winehouse"
+441,"Beyoncé featuring Jay-Z"
+442,"from The Phantom of the Opera"
+443,"Manuel Penella"
+444,"Anastacia"
+445,"Kool and the Gang"
+446,"Flo Rida feat. Robin Thicke & Verdine White"
+447,"Pitbull & Ne-Yo"
+448,"James Horner & Simon Rhodes"
+449,"Wyclef Jean feat. Claudette Ortiz"
+450,"Ruth Brown"
+451,"David Bowie"
+452,"Jordin Sparks & Chris Brown"
+453,"The Emotions"
+454,"Enrique Iglesias feat. Ludacris & DJ Frank E"
+455,"Trans-X"
+456,"Pixie Lott"
+457,"Patti Page"
+458,"The Eagles"
+459,"Desperado Los Lobos & A Banderas"
+460,"The Go-Go's"
+461,"The Ides of March"
+462,"Gladys Knight & the Pips"
+463,"Florida Georgia Line feat. Luke Bryan"
+464,"Jerry Lee Lewis"
+465,"Katy Perry feat. Snoop Dogg"
+466,"The Spinners"
+467,"Unidad de Musica de la Guardia Real"
+468,"Kat DeLuna feat. Elephant Man"
+469,"Cyndi Lauper"
+470,"Jessie J, Ariana Grande & Nicki Minaj"
+471,"Rizzle Kicks"
+472,"Sam Sparro"
+473,"Maroon 5 featuring Christina Aguilera"
+474,"Los Lobos featuring Antonio Banderas"
+475,"George Michael"
+476,"Robin Williams"
+477,"Tavares"
+478,"Consuelo Velázquez"
+479,"Buena Vista Social Club"
+480,"Bananarama"
+481,"Martha and the Vandellas"
+482,"Carlos Di Sarli"
+483,"Steppenwolf"
+484,"The Osmonds"
+485,"Leonard Cohen"
+486,"Kylie Minogue"
+487,"Royal Crown Revue"
+488,"from 42nd Street"
+489,"The Police"
+490,"Otros Aires Electronic Tango Orchestra"
+491,"Tom Petty"
+492,"Leo Sayer"
+493,"Rochelle Diamante"
+494,"The Knack"
+495,"Gotye feat. Kimbra"
+496,"Darius Rucker"
+497,"Ed Sheeran"
+498,"Corrine Bailey Rae"
+499,"Reel 2 Real"
+500,"Betty Everett"
+501,"The Corrs"
+502,"Cupid"
+503,"Bryan Adams"
+504,"Engelbert Humperdinck"
+505,"Boyz II Men"
+506,"Olly Murs"
+507,"Snoop Dogg feat. Pharrell"
+508,"Danny and the Juniors"
+509,"The Pussycat Dolls feat. A. R. Rahman"
+510,"Robin Thicke feat. Kendrick Lamar"
+511,"Paul Anka"
+512,"Bebel Gilberto"
+513,"Sister Sledge"
+514,"50 Cent"
+515,"Erasure"
+516,"Lauren Wood"
+517,"The Manhattan Transfer"
+518,"Angel Melendez"
+519,"Cupid feat. B.o.B"
+520,"Russell Watson"
+521,"Sean Kingston"
+522,"Bell Biv DeVoe"
+523,"Keane"
+524,"Chelo"
+525,"Sarah McLachlan"
+526,"Blake Shelton"
+527,"AC/DC"
+528,"Pitbull"
+529,"Daddy Yankee"
+530,"Julie Covington"
+531,"T. Rex"
+532,"Marvin Gaye and Kim Weston"
+533,"Los Lonely Boys"
+534,"Christa Behnke"
+535,"Xavier Cugat"
+536,"Robert Randolph and the Family Band"
+537,"Johnny Pearson"
+538,"Carly Rae Jepsen"
+539,"Wilson Pickett"
+540,"Lee Brice"
+541,"Cher Lloyd"
+542,"Icona Pop"
+543,"Ellie Goulding"
+544,"T-Bone Burnett"
+545,"Ben E. King"
+546,"Bailongo"
+547,"Jet"
+548,"David Guetta feat. Sam Martin"
+549,"Rolling Stones"
+550,"Kevin Rudolf & Lil Wayne"
+551,"Amos Lee"
+552,"Amerie"
+553,"Klaus Hallen"
+554,"Earth, Wind and Fire"
+555,"Simon and Garfunkel"
+556,"Pitbull feat. Kesha"
+557,"Barrett Strong"
+558,"Robin Thicke feat. T.I. & Pharrell Williams"
+559,"Unit 4 + 2"
+560,"Big Mama Thornton"
+561,"Pyotr Ilyich Tchaikovsky"
+562,"Belinda Carlisle"
+563,"John Barry"
+564,"Santana feat. Pitbull"
+565,"Rodrigo y Gabriela with John Tempesta"
+566,"Clean Bandit feat. Jess Glynne"
+567,"Fulanito"
+568,"Queen and David Bowie"
+569,"Dinah Shore"
+570,"Shania Twain"
+571,"Stevie Ray Vaughan"
+572,"Frankie Lymon and the Teenagers"
+573,"Miguel"
+574,"Rick James"
+575,"from Cinderella"
+576,"Passenger"
+577,"The Dovells"
+578,"Kid Creole and the Coconuts"
+579,"Eliza Doolittle"
+580,"Little Mix"
+581,"Jonny Lang"
+582,"OneRepublic feat. Sara Bareilles"
+583,"Elle King"
+584,"Lara St. John"
+585,"from The Mask"
+586,"from Singin' in the Rain"
+587,"Shiny Toy Guns"
+588,"Jason Aldean"
+589,"from Chitty Chitty Bang Bang"
+590,"Oscar d'Leon"
+591,"Ray Charles & The Blues Brothers"
+592,"John Lennon"
+593,"Oingo Boingo"
+594,"Bruno Mars"
+595,"Zedd feat. Foxes"
+596,"C+C Music Factory"
+597,"Irene Cara"
+598,"Skylar Grey"
+599,"Cynthia Fee"
+600,"from Kinky Boots"
+601,"Walk the Moon"
+602,"Neil Diamond"
+603,"Tito Puente, Jr."
+604,"Louis Armstrong & Ella Fitzgerald"
+605,"Beyoncé feat. Devin & Solange"
+606,"The Righteous Brothers"
+607,"Hunter Hayes"
+608,"Carrie Underwood"
+609,"Jana Kramer"
+610,"A Great Big World & Christina Aguilera"
+611,"Jurassic 5"
+612,"Wisin & Yandel feat. Jennifer Lopez"
+613,"Jessie J"
+614,"Gene Kelly"
+615,"from The Addams Family"
+616,"The Drifters"
+617,"Flo Rida feat. Sia"
+618,"The Eligibles"
+619,"RJD2"
+620,"Gavin James"
+621,"Patti LaBelle"
+622,"Red Hot Chili Peppers"
+623,"Black Oak Arkansas"
+624,"The Jacksons"
+625,"Manuel Panella"
+626,"Dave Matthews Band"
+627,"Michael Giacchino"
+628,"Beyoncé & André 3000"
+629,"Leonard Bernstein"
+630,"Kenny Chesney"
+631,"Avicii"
+632,"Estelle feat. Janelle Monáe"
+633,"Kat DeLuna"
+634,"Hayley Westenra"
+635,"Rockwell"
+636,"Tears for Fears"
+637,"Dave Porter"
+638,"Larry Elgart"
+639,"Vic Mizzy"
+640,"Ray Charles & Julia Rinker"
+641,"Toby Keith"
+642,"Rose Royce"
+643,"John Travolta and Olivia Newton-John"
+644,"Arthur Murray Orchestra"
+645,"Sam Smith"
+646,"Dolly Parton & Kenny Rogers"
+647,"Chris Brown"
+648,"Jimmy Eat World"
+649,"Ray Parker Jr."
+650,"Gwen Verdon"
+651,"P!nk feat. Nate Ruess"
+652,"Jace Everett"
+653,"Ja'net Dubois"
+654,"Mary-Jess Leaverland"
+655,"Dick Van Dyke"
+656,"Cliff Edwards"
+657,"Danny Elfman"
+658,"Tammy Wynette"
+659,"Timbaland featuring Keri Hilson and D.O.E."
+660,"Carmen Miranda"
+661,"Chubby Checker"
+662,"Run-D.M.C."
+663,"Lipps Inc."
+664,"Kelis"
+665,"Captain & Tennille"
+666,"Delbert McClinton"
+667,"Usher"
+668,"Cody Simpson"
+669,"Sam Palladio & Clare Bowen"
+670,"Kiki Dee"
+671,"Billy Vera & The Beaters"
+672,"Sly & The Family Stone"
+673,"Lee Roy Reams"
+674,"Santa Esmeralda"
+675,"Chuck Lorre & Dennis C. Brown"
+676,"The Shirelles"
+677,"Ariana Grande"
+678,"Brad Kane & Lea Salonga"
+679,"Klaus Badelt"
+680,"Jim Croce"
+681,"Rick Springfield"
+682,"Dario G"
+683,"Elvis Crespo"
+684,"Luther Vandross"
+685,"Andy Grammer"
+686,"Gin Wigmore"
+687,"John Legend"
+688,"Christina Perri"
+689,"Pharrell Williams"
+690,"Flo Rida"
+691,"Bette Midler"
+692,"Tamar Braxton"
+693,"Shawn Mendes"
+694,"Pat Carroll"
+695,"Kristen Bell & Santino Fontana"
+696,"Elton John & Britney Spears"
+697,"Christina Aguilera, Lil' Kim, Mýa & Pink"
+698,"Duck Sauce"
+699,"Salt-N-Pepa"
+700,"Vishal Dadlani, Hamsika Iyer & Sricharan"
+701,"Sweet"
+702,"The Big Bopper"
+703,"Louis Jordan"
+704,"MC Hammer"
+705,"Emeli Sandé & The Bryan Ferry Orchestra"
+706,"Backstreet Boys"
+707,"Ray Chew"
+708,"Calvin Harris"
+709,"Mr Probz"
+710,"Rihanna & Calvin Harris"
+711,"Carl Carlton"
+712,"Bad Bunny"
+713,"Mary Wells"
+714,"Usher feat. Nicki Minaj"
+715,"Joey Fatone"
+716,"Hans Zimmer"
+717,"Katy Perry feat. Juicy J"
+718,"Black Joe Lewis & the Honeybears"
+719,"The Swag Geeks feat. Brook Penning"
+720,"Jessie Ware"
+721,"Electric Guest"
+722,"Tim Armstrong featuring Skye Sweetnam"
+723,"Rob Base and DJ E-Z Rock"
+724,"Gioachino Rossini"
+725,"will.i.am"
+726,"Kool & the Gang"
+727,"The Wild Party"
+728,"Jason Derulo"
+729,"Scott Bradlee & Postmodern Jukebox"
+730,"Harry Styles"
+731,"Musical Youth"
+732,"Pharrell feat. Justin Timberlake"
+733,"BTS"
+734,"Outkast"
+735,"Lizzo"
+736,"Timbaland feat. Keri Hilson"
+737,"Nicole Kidman"
+738,"Daft Punk feat. Pharrell Williams"
+739,"Aaron Krause feat. Liza Anne"
+740,"Black Eyed Peas"
+741,"Daft Punk, Pharrell Williams & Nile Rodgers"
+742,"Young MC"
+743,"Deee-Lite"
+744,"Cheryl feat. Tinie Tempah"
+745,"Les Tambours du Bronx"
+746,"Alex Clare"
+747,"The Kid Laroi & Justin Bieber"
+748,"Dua Lipa"
+749,"Jennifer Lopez & Pitbull"
+750,"Emily Wells"
+751,"Fun."
+752,"Meghan Trainor feat. John Legend"
+753,"James Bay"
+754,"Jess Glynne"
+755,"Cameo"
+756,"MGMT"
+757,"Megan Thee Stallion"
+758,"Celia Cruz"
+759,"Enrique Iglesias feat. Gente de Zona, Descemer Bueno & Sean Paul"
+760,"John Travolta"
+761,"Julie Andrews & Dick Van Dyke"
+762,"Jerry Orbach & Angela Lansbury"
+763,"Ilene Woods"
+764,"Rod Stewart"
+765,"Joe Esposito"
+766,"Doja Cat feat. SZA"
+767,"Fergie & Ludacris"
+768,"Paco Peña"
+769,"Toni Basil"
+770,"The Weeknd"
+771,"Bastille"
+772,"Arianna feat. Pitbull"
+773,"Joe Arroyo"
+774,"Jason Weaver, Laura Williams & Rowan Atkinson"
+775,"Rod Taylor"
+776,"Idina Menzel"
+777,"Rihanna featuring Mikky Ekko"
+778,"Silk Sonic"
+779,"Kanye West"
+780,"José Norman"
+781,"Cee Lo Green"
+782,"P!nk"
+783,"Martin Garrix feat. Usher"
+784,"Chromeo"
+785,"Jennifer Lopez feat. Pitbull"
+786,"Louis Prima & Keely Smith"
+787,"Ketty Lester"
+788,"Alexandra Stan"
+789,"The Andrew Sisters"
+790,"Samuel E. Wright"
+791,"Nelly"
+792,"Def Leppard"
+793,"Village People"
+794,"Ant Clemons & Justin Timberlake"
+795,"Des'ree"
+796,"Taylor Dayne"
+797,"Nicki Minaj"
+798,"Debbie Reynolds, Gene Kelly & Donald O'Connor"
+799,"Bill Medley & Jennifer Warnes"
+800,"Sheppard"
+801,"Nikki Yanofsky"
+802,"Woodkid"
+803,"Was (Not Was)"
+804,"Icona Pop feat. Charli XCX"
+805,"James Arthur"
+806,"Daddy Yankee & Luis Fonsi"
+807,"Jimmie Allen"
+808,"Jonas Brothers"
+809,"Ginuwine"
+810,"Ricky Martin feat. Pitbull"
+811,"Calvin Harris feat. Ellie Goulding"
+812,"Charlie Daniels Band"
+813,"The Pierces"
+814,"Ella Henderson"
+815,"Panjabi MC"
+816,"Rodney Atkins"
+817,"David Guetta featuring Sia"
+818,"Lady Gaga & Ariana Grande"
+819,"Donell Jones"
+820,"Glee cast"
+821,"Jimmy Buffett"
+822,"Evanescence feat. Paul McCoy"
+823,"Fergie, Q-Tip & GoonRock"
+824,"Kate Hudson"
+825,"Billie Eilish"
+826,"Kongos"
+827,"Miranda Lambert & Carrie Underwood"
+828,"José Feliciano"
+829,"Camila Cabello"
+830,"Cardi B, Bad Bunny & J Balvin"
+831,"Joss Stone"
+832,"Copacabana"
+833,"Martin Solveig"
+834,"Fantasia Barrino"
+835,"Fifth Harmony"
+836,"Imagine Dragons"
+837,"Lana Del Rey"
+838,"The Doors"
+839,"Vampire Weekend"
+840,"David Hirschfelder & The Bogo Pogo Orchestra"
+841,"Chris Cornell"
+842,"Garbage"
+843,"Gladys Knight"
+844,"Quindon Tarver"
+845,"BC Jean"
+846,"Major Lazer feat. Busy Signal, The Flexican & FS Green"
+847,"Shakira feat. Rihanna"
+848,"Kyle Jacobs"
+849,"Brittany Spears"
+850,"The Foundations"
+851,"Ramin Djawadi"
+852,"Shawn Mendes & Camila Cabello"
+853,"Kina Grannis"
+854,"Ne-Yo"
+855,"Mariah Carey & Whitney Houston"
+856,"Marilyn Manson"
+857,"Gerard McMann"
+858,"Thomas Newman, featuring Tambuco"
+859,"Sheena Easton"
+860,"David Arnold & Nicholas Dodd"
+861,"Awolnation"
+862,"Ana Tijoux"
+863,"Wisin feat. Ricky Martin & Jennifer Lopez"
+864,"Miss Li"
+865,"INXS"
+866,"Demi Lovato"
+867,"Prince & The Revolution"
+868,"Carl Orff"
+869,"Marc Anthony"
+870,"Jack White & Alicia Keys"
+871,"Nikki & Rich"
+872,"Pitbull feat. Theron Theron"
+873,"Aly & AJ"
+874,"Andra Day"
+875,"Lorde"
+876,"Emeli Sandé"
+877,"Marie Miller"
+878,"Sepalot feat. Ladi6"
+879,"Bobby Brown"
+880,"Daddy Yankee feat. Snow"
+881,"Keala Settle"
+882,"Fleetwood Mac"
+883,"Ella Mae Bowen"
+884,"Haley Reinhart"
+885,"Christina Grimmie"
+886,"Lillias White, LaChanze, Roz Ryan, Cheryl Freeman & Vanéese Y. Thomas"
+887,"Jennifer Lopez feat. DJ Khaled & Cardi B"
+888,"Louisa feat. 2 Chainz"
+889,"Clairy Browne & the Bangin' Rackettes"
+890,"Janelle Monáe"
+891,"Wilson Phillips"
+892,"Selena"
+893,"Lady Gaga & Bradley Cooper"
+894,"Saint Jhn"
+895,"Rihanna feat. Calvin Harris"
+896,"MIKA"
+897,"Hugh Jackman, BriaAndChrissy, Keala Settle, Zac Efron & Zendaya"
+898,"Benjamin Bratt"
+899,"Leslie Odom Jr."
+900,"DJ Snake & Lil Jon"
+901,"Jason Derulo feat. 2 Chainz"
+902,"Waylon Jennings"
+903,"The Notorious B.I.G."
+904,"Canned Heat"
+905,"Meryl Streep"
+906,"Lee Ann Womack feat. Sons of the Desert"
+907,"Anika Noni Rose"
+908,"Rumer Willis"
+909,"Cash Cash feat. Julia Michaels"
+910,"Joshua Bassett"
+911,"Jenifer Lewis"
+912,"Dick Van Dyke & Julie Andrews"
+913,"X Ambassadors & Jamie N Commons feat. Jay-Z"
+914,"Leo Soul"
+915,"Kenny Rogers feat. Dolly Parton"
+916,"Don Omar feat. Lucenzo"
+917,"Donny Osmond"
+918,"NONONO"
+919,"Cher"
+920,"Prince Royce feat. Jennifer Lopez & Pitbull"
+921," MKTO"
+922," Goodwill & Hook n Sling"
+923,"Electric Light Orchestra"
+924,"Edoardo Bennato"
+925,"Christian TV"
+926,"Frankie Valli"
+927,"Gregor Salto"
+928,"Christina Aguilera & Blake Shelton"
+929,"Miley Cyrus"
+930,"Avicii feat. Audra Mae"
+931,"Santana feat. The Product G&B"
+932,"Jason Weaver, Rowan Atkinson & Laura Williams"
+933,"Auliʻi Cravalho"
+934,"Selena Gomez"
+935,"Katrina and the Waves"
+936,"Jon Batiste"
+937,"Carmen Twillie & Lebo M."
+938,"Justin Bieber"
+939,"Alexander Jean"
+940,"Bette Midler, Sarah Jessica Parker & Kathy Najimy"
+941,"Ariana Grande feat. Iggy Azalea"
+942,"Armin van Buuren feat. Cimo Fränkel"
+943,"Gamu"
+944,"Major Lazer feat. The Partysquad"
+945,"Bajofondo"
+946,"Whitney Myer"
+947,"RuPaul"
+948,"John Fogerty"
+949,"Whitney Houston & Mariah Carey"
+950,"Pitbull feat. Papayo"
+951,"Carlos Vives"
+952,"Christopher Walken"
+953,"Tevin Campbell"
+954,"James Vincent McMorrow"
+955,"Sia"
+956,"Soft Cell"
+957,"The Baseballs"
+958,"Hardwell"
+959,"Debbie Gibson"
+960,"Fleur East"
+961,"Madness"
+962,"Ludacris feat. Pharrell Williams"
+963,"Lil Nas X feat. Billy Ray Cyrus"
+964,"Lily James"
+965,"Newsies cast"
+966,"DJ Khaled feat. T-Pain, Ludacris, Rick Ross & Snoop Dogg"
+967,"Nathan Lanier"
+968,"Jessie James Decker"
+969,"Calvin Harris feat. John Newman"
+970,"Daphne Willis"
+971,"Eddie Palmieri"
+972,"Jesse Corti & Richard White"
+973,"Dove Cameron, Sofia Carson,"
+974,"Preservation Hall Jazz Band"
+975,"JD McCrary,"
+976,"Julie Andrews"
+977,"Randy Newman"
+978,"Parov Stelar"
+979,"Alesso feat. Ryan Tedder"
+980,"Empire cast feat. Jussie Smollett & Pitbull"
+981,"JP Cooper"
+982,"Joni Mitchell"
+983,"Matt Beilis"
+984,"SBTRKT feat. Ezra Koenig"
+985,"Sarah Bockel"
+986,"Erin Bowman"
+987,"Kesha feat. The Dap-Kings Horns"
+988,"Kurtis Blow"
+989,"The O'Neill Brothers"
+990,"Aloe Blacc"
+991,"Bobby McFerrin"
+992,"Bruce Adler"
+993,"Melora Hardin"
+994,"Chiwetel Ejiofor"
+995,"Wisin"
+996,"John Newman"
+997,"Ariana Grande & John Legend"
+998,"Cast of High School Musical"
+999,"Zayn & Zhavia Ward"
+1000,"Luke Combs"
+1001,"Jagged Edge, featuring RUN"
+1002,"Lewis Capaldi"
+1003,"Diplo feat. Faustix & Imanos and Kai"
+1004,"Koji Kondo"
+1005,"Ricki-Lee Coulter"
+1006,"Haddaway"
+1007,"Luke Bryan"
+1008,"Mambo Compañeros"
+1009,"Nikki Williams"
+1010,"The Disco Fries feat. Hope Murphy"
+1011,"Madcon feat. Ray Dalton"
+1012,"Amy Stroup"
+1013,"Bonde do Rolê feat. Rizzle Kicks"
+1014,"B.o.B feat. Rivers Cuomo"
+1015,"Klaus Badelt & Hans Zimmer"
+1016,"X Ambassadors & Jamie N Commons"
+1017,"Usher feat. Lil' Jon & Ludacris"
+1018,"Avril Lavigne feat. Chad Kroeger"
+1019,"The Coasters"
+1020,"Al Green"
+1021,"Santana feat. Rob Thomas"
+1022,"Lauryn Hill"
+1023,"Jim Brickman & Wayne Brady"
+1024,"Sleeping at Last"
+1025,"The Sugarhill Gang"
+1026,"Captain & Tennille[26]"
+1027,"DJ Snake feat. Justin Bieber"
+1028,"Ben Rector"
+1029,"Steve Goodman"
+1030,"Tim McGraw & Faith Hill"
+1031,"Tyler Ward"
+1032,"Mazzy Star"
+1033,"E.S. Posthumus"
+1034,"Annie Lennox"
+1035,"Florence and the Machine"
+1036,"Bonde do Rolê"
+1037,"Michael Sembello"
+1038,"Missy Elliott feat. Pharrell Williams"
+1039,"Justin Timberlake, featuring Timbaland"
+1040,"Kimberly Cole"
+1041,"Jennifer Lopez feat. Iggy Azalea"
+1042,"Zayde Wølf"
+1043,"Flo Rida feat. Fitz"
+1044,"Mary J. Blige"
+1045,"Erika Jayne"
+1046,"Tami Tappan Damiano"
+1047,"Bootstraps"
+1048,"Alacran"
+1049,"A.P.P.A.R.T."
+1050,"Stockard Channing,"
+1051,"John Travolta & Jeff Conaway"
+1052,"Frankie Avalon"
+1053,"New Kids on the Block"
+1054,"Lifehouse"
+1055,"Hall & Oates"
+1056,"Kiesza"
+1057,"Alessia Cara"
+1058,"Vanilla Ice"
+1059,"Mike Post, Pete Carpenter"
+1060,"Tritonal & Cash Cash feat. JHart"
+1061,"ZAYN"
+1062,"Bugsy Malone"
+1063,"Sha Na Na"
+1064,"Stockard Channing"
+1065,"LMFAO"
+1066,"Major Lazer feat. Nyla & Fuse ODG"
+1067,"Lauren Alaina"
+1068,"Cast of The Rocky Horror Picture Show"
+1069,"Cobra Starship, featuring Leighton Meester"
+1070,"René Dupéré"
+1071,"Little Texas"
+1072,"Betty Hutton"
+1073,"Niykee Heaton"
+1074,"Charo"
+1075,"Judah Kelly"
+1076,"RAIGN"
+1077,"Ava Max"
+1078,"Tiffany"
+1079,"DeBarge"
+1080,"Timeflies"
+1081,"Green Day"
+1082,"Bonnie McKee"
+1083,"Jennifer Nettles"
+1084,"Luis Fonsi feat. Daddy Yankee"
+1085," The Pussycat Dolls"
+1086,"Empire cast feat. Estelle & Jussie Smollett"
+1087,"Thirty Seconds to Mars"
+1088,"Bernadette Peters & Tom Wopat"
+1089,"Noisettes"
+1090,"Metro Station"
+1091,"District 78 feat. Patrice Covington"
+1092,"Kim Petras"
+1093,"Daniel Jang"
+1094,"2WEI"
+1095,"Bobby Pickett"
+1096,"Chris Isaak"
+1097,"Rob Base & DJ E-Z Rock"
+1098,"Lukas Graham"
+1099,"Peppermint Trolley Company"
+1100,"Jessie J feat. 2 Chainz"
+1101,"Sigala feat. John Newman & Nile Rodgers"
+1102,"Sky Ferreira"
+1103,"Hailee Steinfeld"
+1104,"Lion Babe"
+1105,"DJ Kass"
+1106,"Macklemore & Ryan Lewis"
+1107,"Shakira feat. Wyclef Jean"
+1108,"Madeon"
+1109,"Måneskin"
+1110,"Luniz feat. Michael Marshall"
+1111,"Styx"
+1112,"Marky Mark and the Funky Bunch"
+1113,"Doja Cat feat. Nicki Minaj"
+1114,"Calum Scott & Leona Lewis"
+1115,"Jennifer Lopez feat. Gente de Zona"
+1116,"Gavin DeGraw"
+1117,"Jesse Frederick"
+1118,"Charlie Puth"
+1119,"Henry Krieger"
+1120,"J Balvin & Willy William"
+1121,"MAX feat. gnash"
+1122,"Camila Cabello feat. Young Thug"
+1123,"Ludovic Bource"
+1124,"Labrinth feat. Emeli Sandé"
+1125,"Juanes"
+1126,"Justin Bieber feat. Nicki Minaj"
+1127,"Ciara"
+1128,"Montell Jordan"
+1129,"Ally Brooke feat. Matoma"
+1130,"Tim McGraw"
+1131,"Malachi Barton"
+1132,"Tinashe feat. Schoolboy Q"
+1133,"Clint Mansell & Kronos Quartet"
+1134,"CLiQ feat. Alika"
+1135,"Lloyd feat. Lil Wayne"
+1136,"Lady Antebellum"
+1137,"The Wanted"
+1138,"George Noriega & Joel Someillan"
+1139,"Howard Greenfield & Jack Keller"
+1140,"DNCE"
+1141,"Pitbull feat. Robin Thicke, Joe Perry & Travis Barker"
+1142,"Dillon Francis & Skrillex"
+1143,"Jax Jones feat. Demi Lovato & Stefflon Don"
+1144,"Ricky Campanelli"
+1145,"Linda Ronstadt"
+1146,"Grace Potter & The Nocturnals"
+1147,"Michael Buble"
+1148,"Pat Benatar"
+1149,"Barns Courtney"
+1150,"Pitbull feat. Lil Jon"
+1151," Frankie Valli & The Four Seasons"
+1152,"Pitbull feat. Chris Brown"
+1153,"Mark Snow"
+1154,"Mark Mueller"
+1155,"Bear McCreary"
+1156,"Bob James"
+1157,"The Dixie Cups"
+1158,"Nick Cave and the Bad Seeds"
+1159,"Héctor Lavoe"
+1160,"Dimie Cat"
+1161,"Right Said Fred"
+1162,"Rogue Wave"
+1163,"Taio Cruz"
+1164,"Lenka"
+1165,"50 Cent feat. Olivia"
+1166,"Alan Menken & Glenn Slater"
+1167,"Jason Derulo feat. Nicki Minaj & Ty Dolla Sign"
+1168,"Kygo feat. Parson James"
+1169,"Miriam Makeba"
+1170,"DJ Jazzy Jeff & The Fresh Prince"
+1171,"Chumbawamba"
+1172,"Vincint"
+1173,"Helmut Vonlichten"
+1174,"Judy Kuhn"
+1175,"Good Charlotte"
+1176,"Outasight"
+1177,"NSYNC"
+1178,"The Four Tops"
+1179,"Intermezzo Orchestra"
+1180,"Alan Menken & David Zippel"
+1181,"Mandy Moore"
+1182,"Maroon 5 feat. Christina Aguilera"
+1183,"David Gray"
+1184,"Martha & the Vandellas"
+1185,"The Spencer Davis Group"
+1186,"BJ the Chicago Kid"
+1187,"Justin Bieber feat. J. Balvin"
+1188,"Phillip Phillips"
+1189,"TLC"
+1190,"MILCK"
+1191,"District 78"
+1192,"Lea Salonga"
+1193,"Jodi Benson"
+1194,"Crystal Lake feat. Kifi"
+1195,"Raphaël Beau"
+1196,"Youth Group"
+1197,"Kermit the Frog"
+1198,"Al Burton, Gloria Loring & Alan Thicke"
+1199,"Rachel Platten"
+1200,"Glen Hansard & Markéta Irglová"
+1201,"Flo Rida feat. David Guetta"
+1202,"from Gentlemen Prefer Blondes"
+1203," James Blunt"
+1204,"Johnny O'Keefe"
+1205,"Benoît Jutras"
+1206,"Simon Carpentier"
+1207,"Chris Tomlin"
+1208,"Jorge Quintero"
+1209,"Mindy Gledhill"
+1210,"Curtis Mayfield"
+1211,"Us the Duo"
+1212,"The Fray"
+1213,"Ariana Grande & Justin Bieber"
+1214,"Sérgio Mendes feat. Carlinhos Brown"
+1215,"The Tony Rich Project"
+1216,"Huey Lewis & the News"
+1217,"David Guetta feat. Kelly Rowland"
+1218,"Helen Shapiro"
+1219,"Joan Jett & the Blackhearts"
+1220,"George Gershwin"
+1221,"Jack Wagner"
+1222,"Dickie Jones"
+1223,"Kristen Bell & Idina Menzel"
+1224,"Owl City feat. Aloe Blacc"
+1225,"Nick Lachey"
+1226,"Wilfred Jackson & Bert Lewis"
+1227,"Missy Elliott"
+1228,"Kaleo"
+1229,"SYML"
+1230,"Mike Posner"
+1231,"Arthur Conley"
+1232,"Alesha Dixon"
+1233,"Guy Dubuc & Marc Lessard"
+1234,"Dan + Shay"
+1235,"Owl City"
+1236,"Donny Osmond (performed live)"
+1237,"ZZ Ward"
+1238,"Phil Harris & Bruce Reitherman"
+1239,"Benny Goodman"
+1240,"Sam Smith & Normani"
+1241,"José Feliciano,"
+1242,"Atwater Men's Club"
+1243,"John Denver"
+1244,"3OH!3 feat. Ke$ha"
+1245,"Panic! at the Disco"
+1246,"Judy Garland"
+1247,"Regina Belle"
+1248,"Florence + the Machine"
+1249,"Martina McBride"
+1250,"Leon Russell"
+1251,"Amy Adams"
+1252,"Auliʻi Cravalho (performed live)"
+1253,"Jason Weaver,"
+1254,"Carly Pearce"
+1255,"Dierks Bentley feat. Brothers Osborne"
+1256,"Tom Jones feat. Stereophonics"
+1257,"Daughtry"
+1258,"Thin Lizzy"
+1259,"Sonny Bono"
+1260,"Babyface"
+1261,"Mariah Carey & Boyz II Men"
+1262,"Quiet Riot"
+1263,"Jack Garratt"
+1264,"Yves V feat. Mike James"
+1265,"Paige O'Hara"
+1266,"Jordan Fisher feat. Lin-Manuel Miranda"
+1267,"Indila"
+1268,"Don Omar & Lucenzo"
+1269," Tupac feat. Dr. Dre & Roger Troutman"
+1270,"LANCO"
+1271,"Chris Stapleton"
+1272,"Chris Janson"
+1273,"The Human Beinz"
+1274,"Muse"
+1275," Jimi Hendrix"
+1276,"Florence + The Machine"
+1277,"The Score"
+1278,"Will Smith feat. Dru Hill & Kool Moe Dee"
+1279,"Forever Tango"
+1280,"Paula Cole"
+1281,"Gloria Estefan & Miami Sound Machine"
+1282,"Amy Winehouse feat. Mark Ronson"
+1283,"Indeep"
+1284,"Enrique Iglesias feat. Ludacris"
+1285,"Five Stairsteps"
+1286,"Adam Clayton & Larry Mullen, Jr."
+1287,"Petty Booka"
+1288,"Aaron Copland"
+1289,"Portugal. The Man"
+1290,"Sheila E."
+1291,"Smash cast feat. Megan Hilty"
+1292,"Martynas"
+1293,"Bishop Briggs"
+1294,"Merry Clayton"
+1295,"Girls Aloud"
+1296,"Weezer"
+1297,"The Summer Set"
+1298,"Musiq Soulchild"
+1299,"Alice Cooper"
+1300,"Sérgio Mendes feat. The Black Eyed Peas"
+1301,"Eagles"
+1302,"Bob Wilson & His Varsity Rhythm Boys"
+1303,"Beans & Fatback"
+1304,"Ruelle"
+1305,"Calvin Harris & Alesso feat. Hurts"
+1306,"Sevdaliza"
+1307,"Lord Huron"
+1308,"David Guetta feat. Sia"
+1309,"Lenii"
+1310,"Junior Senior"
+1311,"Oh the Larceny"
+1312,"from Forever Tango"
+1313,"Israel Kamakawiwo'ole"
+1314,"Bernard Herrmann"
+1315,"Bill Conti"
+1316,"Hector Lavoe"
+1317,"The Chiffons"
+1318,"Common feat. Pharrell Williams"
+1319,"Andrea Bocelli feat. Jennifer Lopez"
+1320,"Martin Garrix"
+1321,"Noah Cyrus"
+1322,"Ella Mae Bowen & Bonnie Tyler"
+1323,"Andra Day & Common"
+1324,"Zac Efron & Zendaya"
+1325,"The Weeknd & Kendrick Lamar"
+1326,"Vince Hill"
+1327,"Daniel Powter"
+1328,"La Lupe"
+1329,"Mohombi"
+1330,"Postmodern Jukebox feat. Addie Hamilton"
+1331,"Lindsey Stirling"
+1332,"Chase Holfelder"
+1333,"Missy Elliott feat. Ciara & Fat Man Scoop"
+1334,"Jonas Brothers & Karol G"
+1335,"Austin French"
+1336,"Alicia Keys feat. Beyoncé"
+1337,"Landon Pigg"
+1338,"Katherine Jenkins"
+1339,"Nino Rota"
+1340,"Ella Fitzgerald & Louis Armstrong"
+1341,"Glenn Miller"
+1342,"A. R. Rahman"
+1343,"Tape Five feat. Henrik Wager"
+1344,"JP Saxe & Julia Michaels"
+1345,"Edvard Grieg"
+1346,"Phillip Bailey & Phil Collins"
+1347,"Bastille feat. Gabrielle Aplin"
+1348,"Anthony Hamilton & Elayna Boynton"
+1349,"Earl St. Clair"
+1350,"Niall Horan"
+1351,"Years & Years"
+1352,"Marian Hill"
+1353,"The Chicks"
+1354,"Katherine Jenkins & Beverley Staunton"
+1355,"The Four Seasons"
+1356,"Smokey Robinson"
+1357,"Jane Monheit"
+1358,"Emily Browning"
+1359,"The Black Keys"
+1360,"The Chainsmokers feat. Daya"
+1361,"U2"
+1362,"Seth MacFarlane"
+1363,"Björk"
+1364,"Bill Withers"
+1365,"Monty Python"
+1366,"Jim Jacobs & Warren Casey"
+1367,"Frank Loesser"
+1368,"Andrew Lloyd Webber"
+1369,"Smokey Robinson & the Miracles"
+1370,"Alan Menken"
+1371,"Grace feat. G-Eazy"
+1372,"The Proclaimers"
+1373,"The Rembrandts"
+1374,"Lee Greenwood"
+1375,"James Cagney"
+1376,"Jonathan Larson"
+1377,"Steve Miller Band"
+1378,"Stevie Wonder feat. Ariana Grande"
+1379,"Usher feat. Lil Jon & Ludacris"
+1380,"The Cinematic Orchestra feat. Patrick Watson"
+1381,"NEEDTOBREATHE feat. Gavin DeGraw"
+1382,"Natasha Bedingfield"
+1383,"Martynas Levickis"
+1384,"Yin Yang Twins feat. Pitbull"
+1385,"Larry Carlton"
+1386,"The Monkees"
+1387,"Warren Zevon"
+1388,"Cy Coleman"
+1389,"Rayelle"
+1390,"The Weeknd feat. Ed Sheeran"
+1391,"The Script feat. will.i.am"
+1392,"David Garrett & Royal Philharmonic Orchestra"
+1393,"Orianthi"
+1394,"Deadmau5 feat. Rob Swire"
+1395,"The Ames Brothers"
+1396,"Johann Pachelbel"
+1397,"Wayne Beckford"
+1398,"Bakermat feat. Alex Clare"
+1399,"Avicii feat. Sterling Fox & Audra Mae"
+1400,"Hermes House Band"
+1401,"X Ambassadors"
+1402,"Taco feat. tomX"
+1403,"Escala"
+1404,"Paloma Faith"
+1405,"Burt Bacharach"
+1406,"Wolfgang Mozart"
+1407,"Franz Schubert (performed by Jackie Evancho)"
+1408,"Tori Kelly"
+1409,"David Guetta feat. Skylar Grey"
+1410,"Pedro Gomez"
+1411,"Pablo Cruise"
+1412,"Giuseppe Verdi (performed by Vittorio Grigolo)"
+1413,"Sergei Prokofiev"
+1414,"Felix Jaehn feat. Hight & Alex Aiono"
+1415,"Avicii feat. Sandro Cavazza"
+1416,"The Marvelettes"
+1417,"Zedd feat. Hayley Williams"
+1418,"Nathaniel Rateliff & the Night Sweats"
+1419,"Disturbed"
+1420,"Alex Newell, Jess Glynne & DJ Cassidy with Nile Rodgers"
+1421,"Scorpions"
+1422,"Stealers Wheel"
+1423,"DOROTHY"
+1424,"The Piano Guys"
+1425,"Pitbull feat. John Ryan"
+1426,"Anna Nalick"
+1427,"Teddybears feat. Mad Cobra"
+1428,"Nathan Sykes feat. Ariana Grande"
+1429,"Thurston Harris and the Sharps"
+1430,"Cream"
+1431,"Cab Calloway"
+1432,"David Guetta feat. Nicki Minaj"
+1433,"Myon"
+1434,"Foreigner"
+1435,"Blue Foundation"
+1436,"The Cat Empire"
+1437,"Sergio Mendes"
+1438,"Jean Knight"
+1439,"Osvaldo Pugliese"
+1440,"Janelle Monáe feat. Big Boi"
+1441,"Mariano Mores"
+1442,"Duffy"
+1443,"Carole King"
+1444,"Proyecto Uno"
+1445,"Cowboy Troy"
+1446,"from The Passion of the Christ"
+1447,"Tommy Sparks"
+1448,"Earth, Wind, and Fire"
+1449,"69 Boyz"
+1450,"from Dreamgirls"

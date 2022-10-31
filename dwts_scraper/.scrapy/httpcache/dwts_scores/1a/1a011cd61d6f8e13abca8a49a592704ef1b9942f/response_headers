@@ -1,16 +1,16 @@
-Content-Length: 35604
-Date: Sat, 29 Oct 2022 10:06:40 GMT
-Vary: Accept-Encoding,Cookie,Authorization
-Server: ATS/9.1.3
+Content-Length: 35602
+Date: Mon, 31 Oct 2022 03:39:48 GMT
+Server: mw2415.codfw.wmnet
 X-Content-Type-Options: nosniff
 Content-Language: en
-Last-Modified: Thu, 27 Oct 2022 22:04:44 GMT
+Vary: Accept-Encoding,Cookie,Authorization
+Last-Modified: Mon, 31 Oct 2022 03:38:59 GMT
 Content-Type: text/html; charset=UTF-8
 Content-Encoding: gzip
-Age: 54628
-X-Cache: cp2031 hit, cp2033 hit/6
+Age: 45587
+X-Cache: cp2029 miss, cp2041 hit/1
 X-Cache-Status: hit-front
-Server-Timing: cache;desc="hit-front", host;desc="cp2033"
+Server-Timing: cache;desc="hit-front", host;desc="cp2041"
 Strict-Transport-Security: max-age=106384710; includeSubDomains; preload
 Report-To: { "group": "wm_nel", "max_age": 86400, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0" }] }
 Nel: { "report_to": "wm_nel", "max_age": 86400, "failure_fraction": 0.05, "success_fraction": 0.0}
