@@ -15,7 +15,7 @@ There is then a parser in `parse_scores_json_to_tables.ipynb` which produces the
 
 Within the `dwts_dataset` each `csv` is a table. Primary keys are the first column (e.g., `performance_id`). Foreign keys are named with `<table_name>_id` (e.g., primary_dance_style_id).
 
-Note that this is set up as a repo that can work with `repo2docker`.  You can run it direcltly on mybinder via this link
+Note that this is set up as a repo that can work with `repo2docker`.  You can run it direcltly on mybinder via this link [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/howisonlab/dwts_dataset.git/HEAD)
 
 Or you can get it running if you have Docker by installing `repo2docker` and running it.
 
@@ -26,7 +26,7 @@ cd dwts_dataset
 repo2docker --volume .:on-disk .
 ```
 
-That gives you a notebook environment in which you can edit the files in the `on-disk` folder and those edits will persist.
+That gives you a notebook environment in which you can edit the files in the `~/on-disk` folder and those edits will persist.
 
 ## Understanding the dataset
 
