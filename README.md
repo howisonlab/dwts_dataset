@@ -32,7 +32,7 @@ That gives you a notebook environment in which you can edit the files in the `~/
 
 The database can be understood as:
 
-> A `score` is awarded by single `judge` to a single `performance` and is out of 10. A `performance` is by a single couple made up of a `celebrity` and a `professional`, performing in a `primary_dance_style` set to a `primary_song` by a `primary_song_artist`. The performances take place during a `week` of a particular `week_theme` which make up a `season`.
+> A `score` is awarded by single `judge` to a single `performance` and is out of 10. A `performance` is by a single `couple` made up of a `celebrity` and a `professional`, performing in a `primary_dance_style` set to a `primary_song` by a `primary_song_artist`. The performances take place during a `performances.week` of a particular `week_theme` which make up a `performances.season`.
 
 Currently performances by multiple couples at the same time are dropped. This removes the complication of different kinds of judgements, including judgements in which the judges rank the couples (rather than giving scores out of 10).
 
