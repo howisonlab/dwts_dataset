@@ -1,4 +1,4 @@
-# Dancing with the Starts Dataset
+# Dancing with the Stars Dataset
 
 A dataset of Dancing with the Stars scraped from wikipedia tables.  Created for a Data Engineering class.
 
